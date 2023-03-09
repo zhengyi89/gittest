@@ -1,115 +1,115 @@
 /*
--- Query: select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE bill_status <> 2 and id = 27750298 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 37859458 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0000`  WHERE bill_status <> 2 and id = 27750322 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE bill_status <> 2 and id = 132303592439823 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 31722819 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 132303835709463 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 132303837822984 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE bill_status <> 2 and id = 36346850 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 37858797 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 132304236281859 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 132304236265496 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 132304284532745 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 132304284499981 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE bill_status <> 2 and id = 132314277462027 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE bill_status <> 2 and id = 132314277462043 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 28639202 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 28638351 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 28638375 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE bill_status <> 2 and id = 30102356 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 30102406 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 30103405 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE bill_status <> 2 and id = 30102502 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 30124296 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE bill_status <> 2 and id = 132303592488972 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 132303577808920 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 132303579856910 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 30103381 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE bill_status <> 2 and id = 30102454 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 30102478 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 30103453 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE bill_status <> 2 and id = 132303825240075 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE bill_status <> 2 and id = 132303827353605 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE bill_status <> 2 and id = 31721827 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0000`  WHERE bill_status <> 2 and id = 32517306 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE bill_status <> 2 and id = 34470287 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 132304093659146 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 132304093691919 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 36100158 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 36346069 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE bill_status <> 2 and id = 37669079 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE bill_status <> 2 and id = 37859430 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 37858673 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 132304232071198 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 132304232071204 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE bill_status <> 2 and id = 37858773 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE bill_status <> 2 and id = 37858845 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE bill_status <> 2 and id = 37859632 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0000`  WHERE bill_status <> 2 and id = 37858869 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE bill_status <> 2 and id = 36346045 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE bill_status <> 2 and id = 37668203 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE bill_status <> 2 and id = 132304223682577 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE bill_status <> 2 and id = 132304223698954 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE bill_status <> 2 and id = 37858378 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 37858625 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 37858649 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE bill_status <> 2 and id = 37859584 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE bill_status <> 2 and id = 38563579 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE bill_status <> 2 and id = 132324752703498 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE bill_status <> 2 and id = 132324752703514 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 28638323 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 28639228 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 132336391913480 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 132336394043402 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 30102380 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE bill_status <> 2 and id = 30102430 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE bill_status <> 2 and id = 30103501 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 30102550 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 30103429 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 30103477 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE bill_status <> 2 and id = 30102526 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 30103525 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE bill_status <> 2 and id = 30125203 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE bill_status <> 2 and id = 132303825256460 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE bill_status <> 2 and id = 132303827337226 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0000`  WHERE bill_status <> 2 and id = 31721851 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE bill_status <> 2 and id = 32517282 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 34470239 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE bill_status <> 2 and id = 34470311 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 36100084 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE bill_status <> 2 and id = 132304093659160 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE bill_status <> 2 and id = 132304095772675 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE bill_status <> 2 and id = 132304093691923 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 36346021 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 36346097 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 132304137699337 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 132304137699351 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE bill_status <> 2 and id = 132304202743831 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE bill_status <> 2 and id = 37669053 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 37858601 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE bill_status <> 2 and id = 37858402 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 37858721 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE bill_status <> 2 and id = 132304223682571 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE bill_status <> 2 and id = 132304223715348 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE bill_status <> 2 and id = 37858426 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE bill_status <> 2 and id = 37859484 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 132304230006803 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 132304229974035 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE bill_status <> 2 and id = 37858747 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 37859534 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE bill_status <> 2 and id = 37859560 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE bill_status <> 2 and id = 37858821 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE bill_status <> 2 and id = 37859608 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE bill_status <> 2 and id = 132324740120587 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE bill_status <> 2 and id = 132324742250508 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 26567837 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE bill_status <> 2 and id = 132303972040712 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE bill_status <> 2 and id = 132304280338447 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 26567813 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE bill_status <> 2 and id = 26567815 union all 
-select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE bill_status <> 2 and id = 132303969959950
--- Date: 2023-03-09 16:41
+-- Query: select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE  id = 27750298 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 37859458 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0000`  WHERE  id = 27750322 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE  id = 132303592439823 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 31722819 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 132303835709463 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 132303837822984 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE  id = 36346850 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 37858797 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 132304236281859 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 132304236265496 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 132304284532745 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 132304284499981 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE  id = 132314277462027 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE  id = 132314277462043 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 28639202 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 28638351 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 28638375 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE  id = 30102356 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 30102406 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 30103405 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE  id = 30102502 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 30124296 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE  id = 132303592488972 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 132303577808920 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 132303579856910 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 30103381 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE  id = 30102454 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 30102478 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 30103453 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE  id = 132303825240075 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE  id = 132303827353605 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE  id = 31721827 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0000`  WHERE  id = 32517306 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE  id = 34470287 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 132304093659146 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 132304093691919 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 36100158 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 36346069 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE  id = 37669079 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE  id = 37859430 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 37858673 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 132304232071198 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 132304232071204 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE  id = 37858773 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE  id = 37858845 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE  id = 37859632 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0000`  WHERE  id = 37858869 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE  id = 36346045 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE  id = 37668203 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE  id = 132304223682577 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE  id = 132304223698954 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE  id = 37858378 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 37858625 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 37858649 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE  id = 37859584 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE  id = 38563579 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE  id = 132324752703498 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE  id = 132324752703514 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 28638323 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 28639228 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 132336391913480 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 132336394043402 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 30102380 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE  id = 30102430 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE  id = 30103501 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 30102550 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 30103429 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 30103477 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE  id = 30102526 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 30103525 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE  id = 30125203 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE  id = 132303825256460 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE  id = 132303827337226 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0000`  WHERE  id = 31721851 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE  id = 32517282 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 34470239 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE  id = 34470311 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 36100084 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE  id = 132304093659160 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE  id = 132304095772675 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE  id = 132304093691923 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 36346021 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 36346097 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 132304137699337 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 132304137699351 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE  id = 132304202743831 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE  id = 37669053 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 37858601 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE  id = 37858402 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 37858721 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE  id = 132304223682571 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0007`  WHERE  id = 132304223715348 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE  id = 37858426 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE  id = 37859484 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 132304230006803 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 132304229974035 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE  id = 37858747 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 37859534 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0001`  WHERE  id = 37859560 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE  id = 37858821 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE  id = 37859608 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE  id = 132324740120587 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0005`  WHERE  id = 132324742250508 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 26567837 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0004`  WHERE  id = 132303972040712 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0003`  WHERE  id = 132304280338447 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 26567813 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0002`  WHERE  id = 26567815 union all 
+select * from  `incomenew_bcp_00`.`v_bill_0006`  WHERE  id = 132303969959950
+-- Date: 2023-03-09 16:51
 */
 INSERT INTO `` (`id`,`channel_code`,`policy_no`,`group_policy_no`,`policy_relation_no`,`trans_type`,`relation_transaction_no`,`business_transaction_no`,`bill_generate_date`,`ar_ap`,`bill_amount`,`bill_status`,`bill_confirm_date`,`payee_id`,`payer_type`,`pay_method`,`biz_apply_no`,`order_no`,`trade_no`,`arap_account_type`,`frequency`,`is_deleted`,`creator`,`gmt_created`,`modifier`,`gmt_modified`,`offset_transaction_no`,`policy_type`,`policy_event_no`,`tenant_code`,`due_date`,`current_index`,`bill_no`,`zone_id`,`promotion_type`,`promotion_code`,`parent_id`,`agreement_no`,`deduction_type`,`plan_deduction_date`,`actual_deduction_date`,`currency`,`retry_number`,`fail_reason`,`pay_method_change_flag`,`original_policy_no`,`installment_premium_flag`,`change_reason_type`) VALUES (27750298,'Tribe','TA000000570010',NULL,NULL,4,NULL,'TA000000570010_11','2022-01-31 19:16:46',1,'5.00',5,NULL,365659,4,'114',NULL,'234087','P_1607799291711905793',114,5,'N','DMUSER','2022-01-31 19:16:46','system','2022-12-28 02:03:20',NULL,0,NULL,'incomenew','2022-11-30 00:00:00',11,'TA000000570010_11','Asia/Singapore',NULL,NULL,NULL,NULL,1,'2022-11-30 00:00:00','2022-12-28 02:00:00',9,28,'',2,NULL,NULL,NULL);
 INSERT INTO `` (`id`,`channel_code`,`policy_no`,`group_policy_no`,`policy_relation_no`,`trans_type`,`relation_transaction_no`,`business_transaction_no`,`bill_generate_date`,`ar_ap`,`bill_amount`,`bill_status`,`bill_confirm_date`,`payee_id`,`payer_type`,`pay_method`,`biz_apply_no`,`order_no`,`trade_no`,`arap_account_type`,`frequency`,`is_deleted`,`creator`,`gmt_created`,`modifier`,`gmt_modified`,`offset_transaction_no`,`policy_type`,`policy_event_no`,`tenant_code`,`due_date`,`current_index`,`bill_no`,`zone_id`,`promotion_type`,`promotion_code`,`parent_id`,`agreement_no`,`deduction_type`,`plan_deduction_date`,`actual_deduction_date`,`currency`,`retry_number`,`fail_reason`,`pay_method_change_flag`,`original_policy_no`,`installment_premium_flag`,`change_reason_type`) VALUES (37859458,'Tribe','TA000000750283',NULL,NULL,4,NULL,'TA000000750283_5','2022-08-18 00:05:00',1,'5.00',5,NULL,479710,4,'114',NULL,'318314','P_1604174979079659521',114,5,'N','DMUSER','2022-08-18 00:05:18','system','2022-12-18 02:01:36',NULL,0,NULL,'incomenew','2022-12-18 00:00:00',5,'TA000000750283_5','Asia/Singapore',NULL,NULL,NULL,NULL,1,'2022-12-18 00:00:00','2022-12-18 02:00:00',9,NULL,'',2,NULL,NULL,NULL);
@@ -215,15 +215,12 @@ INSERT INTO `` (`id`,`channel_code`,`policy_no`,`group_policy_no`,`policy_relati
 INSERT INTO `` (`id`,`channel_code`,`policy_no`,`group_policy_no`,`policy_relation_no`,`trans_type`,`relation_transaction_no`,`business_transaction_no`,`bill_generate_date`,`ar_ap`,`bill_amount`,`bill_status`,`bill_confirm_date`,`payee_id`,`payer_type`,`pay_method`,`biz_apply_no`,`order_no`,`trade_no`,`arap_account_type`,`frequency`,`is_deleted`,`creator`,`gmt_created`,`modifier`,`gmt_modified`,`offset_transaction_no`,`policy_type`,`policy_event_no`,`tenant_code`,`due_date`,`current_index`,`bill_no`,`zone_id`,`promotion_type`,`promotion_code`,`parent_id`,`agreement_no`,`deduction_type`,`plan_deduction_date`,`actual_deduction_date`,`currency`,`retry_number`,`fail_reason`,`pay_method_change_flag`,`original_policy_no`,`installment_premium_flag`,`change_reason_type`) VALUES (37859608,'Tribe','TD000000820450',NULL,NULL,4,NULL,'TD000000820450_5','2022-08-18 00:05:00',1,'5.00',5,NULL,479733,4,'114',NULL,'319284','P_1604174941750353921',114,5,'N','DMUSER','2022-08-18 00:05:52','system','2022-12-18 02:01:27',NULL,0,NULL,'incomenew','2022-12-18 00:00:00',5,'TD000000820450_5','Asia/Singapore',NULL,NULL,NULL,NULL,1,'2022-12-18 00:00:00','2022-12-18 02:00:00',9,NULL,'',2,NULL,NULL,NULL);
 INSERT INTO `` (`id`,`channel_code`,`policy_no`,`group_policy_no`,`policy_relation_no`,`trans_type`,`relation_transaction_no`,`business_transaction_no`,`bill_generate_date`,`ar_ap`,`bill_amount`,`bill_status`,`bill_confirm_date`,`payee_id`,`payer_type`,`pay_method`,`biz_apply_no`,`order_no`,`trade_no`,`arap_account_type`,`frequency`,`is_deleted`,`creator`,`gmt_created`,`modifier`,`gmt_modified`,`offset_transaction_no`,`policy_type`,`policy_event_no`,`tenant_code`,`due_date`,`current_index`,`bill_no`,`zone_id`,`promotion_type`,`promotion_code`,`parent_id`,`agreement_no`,`deduction_type`,`plan_deduction_date`,`actual_deduction_date`,`currency`,`retry_number`,`fail_reason`,`pay_method_change_flag`,`original_policy_no`,`installment_premium_flag`,`change_reason_type`) VALUES (132324740120587,'Tribe','TD002000200152',NULL,NULL,4,NULL,'63202301010200355925','2023-01-01 07:02:33',1,'2.50',5,NULL,234117,4,'114','63202301010200355925','172137','P_1595483951572680706',NULL,5,'N','system','2023-01-01 07:02:33','system','2023-01-01 07:02:33',NULL,0,NULL,'incomenew','2022-11-23 00:00:00',3,'BL2023010102975279','Asia/Singapore',NULL,NULL,132324740120586,NULL,1,'2022-11-23 00:00:00',NULL,9,NULL,NULL,NULL,NULL,NULL,1);
 INSERT INTO `` (`id`,`channel_code`,`policy_no`,`group_policy_no`,`policy_relation_no`,`trans_type`,`relation_transaction_no`,`business_transaction_no`,`bill_generate_date`,`ar_ap`,`bill_amount`,`bill_status`,`bill_confirm_date`,`payee_id`,`payer_type`,`pay_method`,`biz_apply_no`,`order_no`,`trade_no`,`arap_account_type`,`frequency`,`is_deleted`,`creator`,`gmt_created`,`modifier`,`gmt_modified`,`offset_transaction_no`,`policy_type`,`policy_event_no`,`tenant_code`,`due_date`,`current_index`,`bill_no`,`zone_id`,`promotion_type`,`promotion_code`,`parent_id`,`agreement_no`,`deduction_type`,`plan_deduction_date`,`actual_deduction_date`,`currency`,`retry_number`,`fail_reason`,`pay_method_change_flag`,`original_policy_no`,`installment_premium_flag`,`change_reason_type`) VALUES (132324742250508,'Tribe','TD002000200152',NULL,NULL,4,NULL,'63202301010200356657','2023-01-01 07:02:34',1,'2.50',5,NULL,234117,4,'114','63202301010200356657','172137','P_1606349151054651393',NULL,5,'N','system','2023-01-01 07:02:34','system','2023-01-01 07:02:34',NULL,0,NULL,'incomenew','2022-12-23 00:00:00',4,'BL2023010102976211','Asia/Singapore',NULL,NULL,132324742250506,NULL,1,'2022-12-23 00:00:00',NULL,9,NULL,NULL,NULL,NULL,NULL,1);
+INSERT INTO `` (`id`,`channel_code`,`policy_no`,`group_policy_no`,`policy_relation_no`,`trans_type`,`relation_transaction_no`,`business_transaction_no`,`bill_generate_date`,`ar_ap`,`bill_amount`,`bill_status`,`bill_confirm_date`,`payee_id`,`payer_type`,`pay_method`,`biz_apply_no`,`order_no`,`trade_no`,`arap_account_type`,`frequency`,`is_deleted`,`creator`,`gmt_created`,`modifier`,`gmt_modified`,`offset_transaction_no`,`policy_type`,`policy_event_no`,`tenant_code`,`due_date`,`current_index`,`bill_no`,`zone_id`,`promotion_type`,`promotion_code`,`parent_id`,`agreement_no`,`deduction_type`,`plan_deduction_date`,`actual_deduction_date`,`currency`,`retry_number`,`fail_reason`,`pay_method_change_flag`,`original_policy_no`,`installment_premium_flag`,`change_reason_type`) VALUES (26567837,'Tribe','TE000000410014',NULL,NULL,4,NULL,'TE000000410014_11','2022-01-10 14:07:20',1,'5.00',2,'2023-03-09 03:00:27',351506,4,'114',NULL,'227128','P_1596202649765773313',114,5,'N','DMUSER','2022-01-10 14:07:20','system','2023-03-09 03:00:26',NULL,0,NULL,'incomenew','2022-11-10 00:00:00',11,'TE000000410014_11','Asia/Singapore',NULL,NULL,NULL,NULL,1,'2022-11-10 00:00:00','2022-11-26 02:00:00',9,16,'',2,NULL,NULL,NULL);
 INSERT INTO `` (`id`,`channel_code`,`policy_no`,`group_policy_no`,`policy_relation_no`,`trans_type`,`relation_transaction_no`,`business_transaction_no`,`bill_generate_date`,`ar_ap`,`bill_amount`,`bill_status`,`bill_confirm_date`,`payee_id`,`payer_type`,`pay_method`,`biz_apply_no`,`order_no`,`trade_no`,`arap_account_type`,`frequency`,`is_deleted`,`creator`,`gmt_created`,`modifier`,`gmt_modified`,`offset_transaction_no`,`policy_type`,`policy_event_no`,`tenant_code`,`due_date`,`current_index`,`bill_no`,`zone_id`,`promotion_type`,`promotion_code`,`parent_id`,`agreement_no`,`deduction_type`,`plan_deduction_date`,`actual_deduction_date`,`currency`,`retry_number`,`fail_reason`,`pay_method_change_flag`,`original_policy_no`,`installment_premium_flag`,`change_reason_type`) VALUES (132303972040712,'Tribe','TE000000510012',NULL,NULL,4,NULL,'63202301010200212177','2023-01-01 04:17:31',1,'5.00',3,NULL,447700,4,'114','63202301010200212177','293312','P_1604537810438381570',NULL,5,'N','system','2023-01-01 04:17:30','system','2023-01-01 22:00:14',NULL,0,NULL,'incomenew','2022-12-19 00:00:00',7,'BL2023010102592437','Asia/Singapore',NULL,NULL,132303972040711,NULL,1,'2022-12-19 00:00:00',NULL,9,NULL,'',NULL,NULL,NULL,1);
 INSERT INTO `` (`id`,`channel_code`,`policy_no`,`group_policy_no`,`policy_relation_no`,`trans_type`,`relation_transaction_no`,`business_transaction_no`,`bill_generate_date`,`ar_ap`,`bill_amount`,`bill_status`,`bill_confirm_date`,`payee_id`,`payer_type`,`pay_method`,`biz_apply_no`,`order_no`,`trade_no`,`arap_account_type`,`frequency`,`is_deleted`,`creator`,`gmt_created`,`modifier`,`gmt_modified`,`offset_transaction_no`,`policy_type`,`policy_event_no`,`tenant_code`,`due_date`,`current_index`,`bill_no`,`zone_id`,`promotion_type`,`promotion_code`,`parent_id`,`agreement_no`,`deduction_type`,`plan_deduction_date`,`actual_deduction_date`,`currency`,`retry_number`,`fail_reason`,`pay_method_change_flag`,`original_policy_no`,`installment_premium_flag`,`change_reason_type`) VALUES (132304280338447,'Tribe','TE000000550069',NULL,NULL,4,NULL,'63202301010200216248','2023-01-01 04:19:58',1,'10.00',3,NULL,487123,4,'114','63202301010200216248','327078','P_1596930244723572737',NULL,5,'N','system','2023-01-01 04:19:57','system','2023-01-01 22:00:17',NULL,0,NULL,'incomenew','2022-11-27 00:00:00',4,'BL2023010102599445','Asia/Singapore',NULL,NULL,132304280338446,NULL,1,'2022-11-27 00:00:00',NULL,9,NULL,'',NULL,NULL,NULL,1);
+INSERT INTO `` (`id`,`channel_code`,`policy_no`,`group_policy_no`,`policy_relation_no`,`trans_type`,`relation_transaction_no`,`business_transaction_no`,`bill_generate_date`,`ar_ap`,`bill_amount`,`bill_status`,`bill_confirm_date`,`payee_id`,`payer_type`,`pay_method`,`biz_apply_no`,`order_no`,`trade_no`,`arap_account_type`,`frequency`,`is_deleted`,`creator`,`gmt_created`,`modifier`,`gmt_modified`,`offset_transaction_no`,`policy_type`,`policy_event_no`,`tenant_code`,`due_date`,`current_index`,`bill_no`,`zone_id`,`promotion_type`,`promotion_code`,`parent_id`,`agreement_no`,`deduction_type`,`plan_deduction_date`,`actual_deduction_date`,`currency`,`retry_number`,`fail_reason`,`pay_method_change_flag`,`original_policy_no`,`installment_premium_flag`,`change_reason_type`) VALUES (26567813,'Tribe','TF000000410014',NULL,NULL,4,NULL,'TF000000410014_11','2022-01-10 14:07:18',1,'5.00',2,'2023-03-09 03:02:31',352570,4,'114',NULL,'227128','P_1594391056063188993',114,5,'N','DMUSER','2022-01-10 14:07:18','system','2023-03-09 03:02:30',NULL,0,NULL,'incomenew','2022-11-10 00:00:00',11,'TF000000410014_11','Asia/Singapore',NULL,NULL,NULL,NULL,1,'2022-11-10 00:00:00','2022-11-21 02:00:00',9,11,'',2,NULL,NULL,NULL);
+INSERT INTO `` (`id`,`channel_code`,`policy_no`,`group_policy_no`,`policy_relation_no`,`trans_type`,`relation_transaction_no`,`business_transaction_no`,`bill_generate_date`,`ar_ap`,`bill_amount`,`bill_status`,`bill_confirm_date`,`payee_id`,`payer_type`,`pay_method`,`biz_apply_no`,`order_no`,`trade_no`,`arap_account_type`,`frequency`,`is_deleted`,`creator`,`gmt_created`,`modifier`,`gmt_modified`,`offset_transaction_no`,`policy_type`,`policy_event_no`,`tenant_code`,`due_date`,`current_index`,`bill_no`,`zone_id`,`promotion_type`,`promotion_code`,`parent_id`,`agreement_no`,`deduction_type`,`plan_deduction_date`,`actual_deduction_date`,`currency`,`retry_number`,`fail_reason`,`pay_method_change_flag`,`original_policy_no`,`installment_premium_flag`,`change_reason_type`) VALUES (26567815,'Tribe','TF000000410014',NULL,NULL,4,NULL,'TF000000410014_12','2022-01-10 14:07:18',1,'5.00',2,'2023-03-09 03:02:31',352570,4,'114',NULL,'227128','P_1602000754364874753',114,5,'N','DMUSER','2022-01-10 14:07:18','system','2023-03-09 03:02:31',NULL,0,NULL,'incomenew','2022-12-10 00:00:00',12,'TF000000410014_12','Asia/Singapore',NULL,NULL,NULL,NULL,1,'2022-12-10 00:00:00','2022-12-12 02:00:00',9,2,'',2,NULL,NULL,NULL);
 INSERT INTO `` (`id`,`channel_code`,`policy_no`,`group_policy_no`,`policy_relation_no`,`trans_type`,`relation_transaction_no`,`business_transaction_no`,`bill_generate_date`,`ar_ap`,`bill_amount`,`bill_status`,`bill_confirm_date`,`payee_id`,`payer_type`,`pay_method`,`biz_apply_no`,`order_no`,`trade_no`,`arap_account_type`,`frequency`,`is_deleted`,`creator`,`gmt_created`,`modifier`,`gmt_modified`,`offset_transaction_no`,`policy_type`,`policy_event_no`,`tenant_code`,`due_date`,`current_index`,`bill_no`,`zone_id`,`promotion_type`,`promotion_code`,`parent_id`,`agreement_no`,`deduction_type`,`plan_deduction_date`,`actual_deduction_date`,`currency`,`retry_number`,`fail_reason`,`pay_method_change_flag`,`original_policy_no`,`installment_premium_flag`,`change_reason_type`) VALUES (132303969959950,'Tribe','TF000000520010',NULL,NULL,4,NULL,'63202301010200212163','2023-01-01 04:17:30',1,'5.00',3,NULL,446886,4,'114','63202301010200212163','293311','P_1604537078603636737',NULL,5,'N','system','2023-01-01 04:17:29','system','2023-01-01 22:01:16',NULL,0,NULL,'incomenew','2022-12-19 00:00:00',7,'BL2023010102593390','Asia/Singapore',NULL,NULL,132303969959949,NULL,1,'2022-12-19 00:00:00',NULL,9,NULL,'',NULL,NULL,NULL,1);
-
-
-
-
-
-
 
 
 
