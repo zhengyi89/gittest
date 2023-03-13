@@ -1,68 +1,72 @@
 {
     "content": [
         {
-            "creator": "DMUSER",
-            "gmtCreated": "2023-03-07T12:08:28.000+08:00",
+            "creator": "system",
+            "gmtCreated": "2023-02-23T13:07:27.000+08:00",
             "modifier": "system",
-            "gmtModified": "2023-03-07T12:08:28.000+08:00",
+            "gmtModified": "2023-02-23T13:07:27.000+08:00",
             "isDeleted": "N",
-            "policyId": 2160009,
-            "issuanceId": 2441498,
-            "bizApplyNo": "271149834429803",
+            "extraInfo": "{}",
+            "policyId": 123951781167108,
+            "issuanceId": 123951779037187,
+            "bizApplyNo": "000000000391018",
             "goodsId": 627448349720576,
             "goodsPlanId": 627448752373760,
-            "orderNo": "TRDNO00001463155",
-            "issuanceNo": "63202111230060386105",
-            "policyNo": "SP000000050103",
+            "orderNo": "TRDNO00001399937",
+            "issuanceNo": "63202211160200200948",
+            "policyNo": "SP002000800021",
             "campaignDefId": 1,
             "packageDefId": 627324886188032,
             "policyStatus": "TERMINATION",
-            "statusChangeCause": "NON_DECLARATION_OF_MATERIALS",
-            "statusChangeDate": "2021-11-23T00:00:00.000+08:00",
-            "insureDate": "2021-11-23T21:59:40.000+08:00",
-            "issueDate": "2021-11-23T21:59:42.000+08:00",
-            "signOffDate": "2021-11-23T21:59:42.000+08:00",
+            "statusChangeCause": "POS_CANCEL_DUE_TO_CLIENT",
+            "statusChangeDate": "2023-02-14T23:59:59.000+08:00",
+            "insureDate": "2022-11-16T02:00:13.000+08:00",
+            "issueDate": "2022-11-16T02:00:15.000+08:00",
+            "signOffDate": "2021-11-16T23:22:25.000+08:00",
             "policyDeliveryMethod": "E_POLICY",
-            "holderCustomerId": 313348,
-            "policyTransactionNo": "32202303075422413560",
-            "policyTransactionId": 144140839026689,
+            "holderCustomerId": 123951778955266,
+            "policyTransactionNo": "32202302233032499879",
+            "policyTransactionId": 141973933654023,
             "transactionType": "POS_CANCELLATION",
             "changeSource": "POS_ONLINE",
             "policyTransactionStatus": "EFFECTIVE",
-            "lastPaidExpiredDate": "2022-11-22T23:59:59.000+08:00",
+            "renewalSource": "AUTO_RENEWAL",
+            "lastPaidExpiredDate": "2023-11-15T23:59:59.000+08:00",
             "goodsCode": "SNACK_InjuryIllness",
             "goodsPlanCode": "SNACK_InjuryIllness_01",
             "packageCode": "SNACK_InjuryIllness_01",
             "currency": "SGD",
             "zoneId": "Asia/Singapore",
-            "caseNo": "CSTC2023030754224132",
+            "caseNo": "CSTC2023022330324998",
             "autoRenewal": "YES",
+            "renewalTimes": 1,
+            "proposalConfirmDate": "2022-11-16T02:00:15.000+08:00",
             "policyHolder": {
-                "policyHolderId": 1535965,
+                "policyHolderId": 123951781167108,
                 "userType": "PERSONAL",
-                "customerId": 313348,
-                "policyId": 2160009
+                "customerId": 123951778955266,
+                "policyId": 123951781167108
             },
             "policyProductList": [
                 {
-                    "creator": "DMUSER",
-                    "gmtCreated": "2023-03-07T12:08:28.000+08:00",
+                    "creator": "system",
+                    "gmtCreated": "2023-02-23T13:07:27.000+08:00",
                     "modifier": "system",
-                    "gmtModified": "2023-03-07T12:08:28.000+08:00",
+                    "gmtModified": "2023-02-23T13:07:27.000+08:00",
                     "isDeleted": "N",
-                    "policyProductId": 4409617,
-                    "policyId": 2160009,
+                    "policyProductId": 123951781167108,
+                    "policyId": 123951781167108,
                     "productId": 619971247865857,
                     "productCode": "SNACK_InjuryIllness",
-                    "effectiveDate": "2021-11-23T00:00:00.000+08:00",
-                    "expiryDate": "2022-11-22T23:59:59.000+08:00",
-                    "riskStartDate": "2021-11-23T00:00:00.000+08:00",
+                    "effectiveDate": "2022-11-16T00:00:00.000+08:00",
+                    "expiryDate": "2023-11-15T23:59:59.000+08:00",
+                    "riskStartDate": "2022-11-16T00:00:00.000+08:00",
                     "unit": 1,
-                    "sumInsured": "140.0",
+                    "sumInsured": "200",
                     "sumInsuredDownSell": "0",
                     "status": "TERMINATION",
-                    "statusChangeCause": "NON_DECLARATION_OF_MATERIALS",
-                    "statusChangeDate": "2021-11-23T00:00:00.000+08:00",
+                    "statusChangeCause": "POS_CANCEL_DUE_TO_CLIENT",
+                    "statusChangeDate": "2023-02-14T23:59:59.000+08:00",
                     "currency": "SGD",
                     "coveragePeriodType": "MONTH",
                     "coveragePeriod": "12",
@@ -70,244 +74,117 @@
                     "premiumPeriod": "1",
                     "premiumFrequency": "MONTH",
                     "canRenewal": "CAN",
-                    "holderCustomerId": 313348,
+                    "holderCustomerId": 123951778955266,
                     "policyScenario": "NORMAL",
                     "actualPremium": "9.90",
-                    "tax": "0.65",
+                    "tax": "0.73",
                     "totalInstallPremium": "9.90",
-                    "premiumAfterDiscount": "9.25",
-                    "periodPremium": "9.25",
-                    "periodStandardPremium": "9.25",
-                    "periodStandardPremiumIncTax": "9.90",
+                    "premiumAfterDiscount": "9.17",
+                    "periodPremium": "9.17",
+                    "periodStandardPremium": "9.17",
+                    "periodStandardPremiumIncTax": "9.9",
+                    "periodExtraPremium": "0",
+                    "extraPremium": "0",
                     "policyInsurantList": [
                         {
-                            "customerDeclarationList": [
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040002",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602344,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040002",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040003",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602345,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040003",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040004",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602346,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040004",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040005",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602347,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040005",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042002",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602348,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042002",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042004",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602349,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042004",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042005",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602350,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042005",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042007",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602351,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042007",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042008",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602352,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042008",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                }
-                            ],
-                            "policyInsurantId": 53209337,
-                            "holderCustomerId": 313348,
+                            "policyInsurantId": 123951781167105,
+                            "holderCustomerId": 123951778955266,
                             "holderRelation": "SELF",
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "userType": "PERSONAL",
-                            "customerId": 313350,
+                            "customerId": 123951778955267,
+                            "insuredEffectiveDate": "2022-11-16T00:00:00.000+08:00",
+                            "insuredExpiryDate": "2023-11-15T23:59:59.000+08:00",
+                            "insuredTerminationDate": "2023-02-16T00:00:00.000+08:00",
+                            "insuredTerminationReason": "DUE_TO_POS_INSURED",
+                            "status": "INVALID",
                             "occupationClass": "1"
                         }
                     ],
                     "policyProductLiabilityList": [
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2023-03-07T12:08:28.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2023-02-23T13:07:27.000+08:00",
                             "modifier": "system",
-                            "gmtModified": "2023-03-07T12:08:28.000+08:00",
+                            "gmtModified": "2023-02-23T13:07:27.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110420,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167110,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 556,
                             "unit": 1,
-                            "sumInsured": "45.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "65",
+                            "holderCustomerId": 123951778955266,
                             "status": "TERMINATION",
-                            "liabilityCode": "1345",
-                            "periodPremium": "9.25",
-                            "statusChangeCause": "NON_DECLARATION_OF_MATERIALS",
-                            "statusChangeDate": "2021-11-23T00:00:00.000+08:00"
+                            "periodPremium": "4.59",
+                            "statusChangeCause": "POS_CANCEL_DUE_TO_CLIENT",
+                            "statusChangeDate": "2023-02-14T23:59:59.000+08:00"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2023-03-07T12:08:28.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2023-02-23T13:07:27.000+08:00",
                             "modifier": "system",
-                            "gmtModified": "2023-03-07T12:08:28.000+08:00",
+                            "gmtModified": "2023-02-23T13:07:27.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110421,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167111,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 557,
                             "unit": 1,
-                            "sumInsured": "45.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "65",
+                            "holderCustomerId": 123951778955266,
                             "status": "TERMINATION",
-                            "liabilityCode": "1346",
-                            "statusChangeCause": "NON_DECLARATION_OF_MATERIALS",
-                            "statusChangeDate": "2021-11-23T00:00:00.000+08:00"
+                            "periodPremium": "0.00",
+                            "statusChangeCause": "POS_CANCEL_DUE_TO_CLIENT",
+                            "statusChangeDate": "2023-02-14T23:59:59.000+08:00"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2023-03-07T12:08:28.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2023-02-23T13:07:27.000+08:00",
                             "modifier": "system",
-                            "gmtModified": "2023-03-07T12:08:28.000+08:00",
+                            "gmtModified": "2023-02-23T13:07:27.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110422,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167112,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 558,
                             "unit": 1,
-                            "sumInsured": "25.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "35",
+                            "holderCustomerId": 123951778955266,
                             "status": "TERMINATION",
-                            "liabilityCode": "1347",
-                            "periodPremium": "9.25",
-                            "statusChangeCause": "NON_DECLARATION_OF_MATERIALS",
-                            "statusChangeDate": "2021-11-23T00:00:00.000+08:00"
+                            "periodPremium": "4.58",
+                            "statusChangeCause": "POS_CANCEL_DUE_TO_CLIENT",
+                            "statusChangeDate": "2023-02-14T23:59:59.000+08:00"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2023-03-07T12:08:28.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2023-02-23T13:07:27.000+08:00",
                             "modifier": "system",
-                            "gmtModified": "2023-03-07T12:08:28.000+08:00",
+                            "gmtModified": "2023-02-23T13:07:27.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110423,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167113,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 559,
                             "unit": 1,
-                            "sumInsured": "25.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "35",
+                            "holderCustomerId": 123951778955266,
                             "status": "TERMINATION",
-                            "liabilityCode": "1348",
-                            "statusChangeCause": "NON_DECLARATION_OF_MATERIALS",
-                            "statusChangeDate": "2021-11-23T00:00:00.000+08:00"
+                            "periodPremium": "0.00",
+                            "statusChangeCause": "POS_CANCEL_DUE_TO_CLIENT",
+                            "statusChangeDate": "2023-02-14T23:59:59.000+08:00"
                         }
                     ],
                     "policyChannelList": [
                         {
-                            "policyChannelId": 4409617,
-                            "policyId": 2160009,
-                            "holderCustomerId": 313348,
+                            "policyChannelId": 123951781167106,
+                            "policyId": 123951781167108,
+                            "holderCustomerId": 123951778955266,
                             "channelCode": "SNACK",
-                            "transactionEffectiveDate": "2021-11-23T00:00:00.000+08:00",
-                            "policyTransactionNo": "SP000000050103",
-                            "policyProductId": 4409617
+                            "transactionEffectiveDate": "2022-11-16T00:00:00.000+08:00",
+                            "policyTransactionNo": "SP002000800021",
+                            "policyProductId": 123951781167108
                         }
                     ],
                     "policyInsuredObjectList": []
@@ -316,97 +193,117 @@
             "policyInsuredObjectList": [],
             "policyPayerList": [
                 {
-                    "policyPayerId": 1350965,
-                    "policyId": 2160009,
+                    "policyPayerId": 123951781167108,
+                    "policyId": 123951781167108,
                     "payerType": "FIRST",
-                    "customerId": 313349,
-                    "payAccountId": 169100,
+                    "customerId": 299310,
+                    "payAccountId": 165049,
                     "payMethod": "STRIPE_PAY",
-                    "holderCustomerId": 313348
+                    "holderCustomerId": 123951778955266
                 },
                 {
-                    "policyPayerId": 200001350965,
-                    "policyId": 2160009,
+                    "policyPayerId": 123951781167109,
+                    "policyId": 123951781167108,
                     "payerType": "RENEWAL",
-                    "customerId": 313349,
-                    "payAccountId": 169100,
+                    "customerId": 299310,
+                    "payAccountId": 165049,
                     "payMethod": "STRIPE_PAY",
-                    "holderCustomerId": 313348
+                    "holderCustomerId": 123951778955266
                 }
             ],
             "policyVersion": {
-                "policyId": 2160009,
-                "bizApplyNo": "271149834429803",
-                "version": "14",
-                "holderCustomerId": 313348,
-                "gmtModified": "2023-03-07T12:08:28.000+08:00"
+                "policyId": 123951781167108,
+                "bizApplyNo": "000000000391018",
+                "version": "6",
+                "holderCustomerId": 123951778955266,
+                "gmtModified": "2023-02-23T13:07:27.000+08:00"
             },
-            "policyRelations": [],
-            "policyRelationList": [],
+            "policyRelations": [
+                {
+                    "policyId": 123951781167108,
+                    "type": "RENEWAL_POLICY",
+                    "relationNo": "SP000000020149",
+                    "holderCustomerId": 123951778955266
+                }
+            ],
+            "policyRelationList": [
+                {
+                    "policyId": 123951781167108,
+                    "type": "RENEWAL_POLICY",
+                    "relationNo": "SP000000020149",
+                    "holderCustomerId": 123951778955266
+                }
+            ],
             "policyClaimStackList": [],
             "createBillFlag": "YES"
         },
         {
-            "creator": "DMUSER",
-            "gmtCreated": "2022-11-23T05:00:07.000+08:00",
-            "modifier": "batch",
-            "gmtModified": "2022-11-23T05:00:07.000+08:00",
+            "creator": "system",
+            "gmtCreated": "2023-02-17T00:05:04.000+08:00",
+            "modifier": "system",
+            "gmtModified": "2023-02-17T00:05:04.000+08:00",
             "isDeleted": "N",
-            "policyId": 2160009,
-            "issuanceId": 2441498,
-            "bizApplyNo": "271149834429803",
+            "extraInfo": "{}",
+            "policyId": 123951781167108,
+            "issuanceId": 123951779037187,
+            "bizApplyNo": "000000000391018",
             "goodsId": 627448349720576,
             "goodsPlanId": 627448752373760,
-            "orderNo": "TRDNO00001463155",
-            "issuanceNo": "63202111230060386105",
-            "policyNo": "SP000000050103",
+            "orderNo": "TRDNO00001399937",
+            "issuanceNo": "63202211160200200948",
+            "policyNo": "SP002000800021",
             "campaignDefId": 1,
             "packageDefId": 627324886188032,
             "policyStatus": "TERMINATION",
-            "statusChangeCause": "POLICY_MATURITY",
-            "statusChangeDate": "2022-11-22T23:59:59.000+08:00",
-            "insureDate": "2021-11-23T21:59:40.000+08:00",
-            "issueDate": "2021-11-23T21:59:42.000+08:00",
-            "signOffDate": "2021-11-23T21:59:42.000+08:00",
-            "holderCustomerId": 313348,
-            "policyTransactionNo": "31202211236789607178",
-            "policyTransactionId": 125242771079169,
-            "transactionType": "POLICY_MATURITY",
-            "changeSource": "BATCH",
+            "statusChangeCause": "POS_CANCEL_DUE_TO_CLIENT",
+            "statusChangeDate": "2023-02-15T23:59:59.000+08:00",
+            "insureDate": "2022-11-16T02:00:13.000+08:00",
+            "issueDate": "2022-11-16T02:00:15.000+08:00",
+            "signOffDate": "2021-11-16T23:22:25.000+08:00",
+            "policyDeliveryMethod": "E_POLICY",
+            "holderCustomerId": 123951778955266,
+            "policyTransactionNo": "32202301168816333024",
+            "policyTransactionId": 140788323418120,
+            "transactionType": "POS_CANCELLATION",
+            "changeSource": "POS_ONLINE",
             "policyTransactionStatus": "EFFECTIVE",
-            "lastPaidExpiredDate": "2022-11-22T23:59:59.000+08:00",
+            "renewalSource": "AUTO_RENEWAL",
+            "lastPaidExpiredDate": "2023-11-15T23:59:59.000+08:00",
             "goodsCode": "SNACK_InjuryIllness",
             "goodsPlanCode": "SNACK_InjuryIllness_01",
             "packageCode": "SNACK_InjuryIllness_01",
             "currency": "SGD",
             "zoneId": "Asia/Singapore",
+            "caseNo": "CSTC2023011688163335",
             "autoRenewal": "YES",
+            "renewalTimes": 1,
+            "proposalConfirmDate": "2022-11-16T02:00:15.000+08:00",
             "policyHolder": {
-                "policyHolderId": 1535965,
+                "policyHolderId": 123951781167108,
                 "userType": "PERSONAL",
-                "customerId": 313348,
-                "policyId": 2160009
+                "customerId": 123951778955266,
+                "policyId": 123951781167108
             },
             "policyProductList": [
                 {
-                    "creator": "DMUSER",
-                    "gmtCreated": "2022-11-23T05:00:07.000+08:00",
-                    "modifier": "batch",
-                    "gmtModified": "2022-11-23T05:00:07.000+08:00",
+                    "creator": "system",
+                    "gmtCreated": "2023-02-17T00:05:04.000+08:00",
+                    "modifier": "system",
+                    "gmtModified": "2023-02-17T00:05:04.000+08:00",
                     "isDeleted": "N",
-                    "policyProductId": 4409617,
-                    "policyId": 2160009,
+                    "policyProductId": 123951781167108,
+                    "policyId": 123951781167108,
                     "productId": 619971247865857,
                     "productCode": "SNACK_InjuryIllness",
-                    "effectiveDate": "2021-11-23T00:00:00.000+08:00",
-                    "expiryDate": "2022-11-22T23:59:59.000+08:00",
-                    "riskStartDate": "2021-11-23T00:00:00.000+08:00",
+                    "effectiveDate": "2022-11-16T00:00:00.000+08:00",
+                    "expiryDate": "2023-11-15T23:59:59.000+08:00",
+                    "riskStartDate": "2022-11-16T00:00:00.000+08:00",
                     "unit": 1,
-                    "sumInsured": "140.0",
+                    "sumInsured": "200",
                     "sumInsuredDownSell": "0",
                     "status": "TERMINATION",
-                    "statusChangeCause": "POLICY_MATURITY",
-                    "statusChangeDate": "2022-11-22T23:59:59.000+08:00",
+                    "statusChangeCause": "POS_CANCEL_DUE_TO_CLIENT",
+                    "statusChangeDate": "2023-02-15T23:59:59.000+08:00",
                     "currency": "SGD",
                     "coveragePeriodType": "MONTH",
                     "coveragePeriod": "12",
@@ -414,236 +311,117 @@
                     "premiumPeriod": "1",
                     "premiumFrequency": "MONTH",
                     "canRenewal": "CAN",
-                    "holderCustomerId": 313348,
+                    "holderCustomerId": 123951778955266,
                     "policyScenario": "NORMAL",
                     "actualPremium": "9.90",
-                    "tax": "0.65",
+                    "tax": "0.73",
                     "totalInstallPremium": "9.90",
-                    "premiumAfterDiscount": "9.25",
-                    "periodPremium": "9.25",
-                    "periodStandardPremium": "9.25",
-                    "periodStandardPremiumIncTax": "9.90",
+                    "premiumAfterDiscount": "9.17",
+                    "periodPremium": "9.17",
+                    "periodStandardPremium": "9.17",
+                    "periodStandardPremiumIncTax": "9.9",
+                    "periodExtraPremium": "0",
+                    "extraPremium": "0",
                     "policyInsurantList": [
                         {
-                            "customerDeclarationList": [
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040002",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602344,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040002",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040003",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602345,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040003",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040004",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602346,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040004",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040005",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602347,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040005",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042002",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602348,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042002",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042004",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602349,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042004",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042005",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602350,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042005",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042007",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602351,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042007",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042008",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602352,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042008",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                }
-                            ],
-                            "policyInsurantId": 53209337,
-                            "holderCustomerId": 313348,
+                            "policyInsurantId": 123951781167105,
+                            "holderCustomerId": 123951778955266,
                             "holderRelation": "SELF",
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "userType": "PERSONAL",
-                            "customerId": 313350,
+                            "customerId": 123951778955267,
+                            "insuredEffectiveDate": "2022-11-16T00:00:00.000+08:00",
+                            "insuredExpiryDate": "2023-11-15T23:59:59.000+08:00",
+                            "insuredTerminationDate": "2023-02-16T00:00:00.000+08:00",
+                            "insuredTerminationReason": "DUE_TO_POS_INSURED",
+                            "status": "INVALID",
                             "occupationClass": "1"
                         }
                     ],
                     "policyProductLiabilityList": [
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2022-11-23T05:00:07.000+08:00",
-                            "modifier": "batch",
-                            "gmtModified": "2022-11-23T05:00:07.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2023-02-17T00:05:04.000+08:00",
+                            "modifier": "system",
+                            "gmtModified": "2023-02-17T00:05:04.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110420,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167110,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 556,
                             "unit": 1,
-                            "sumInsured": "45.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "65",
+                            "holderCustomerId": 123951778955266,
                             "status": "TERMINATION",
-                            "liabilityCode": "1345",
-                            "periodPremium": "9.25"
+                            "periodPremium": "4.59",
+                            "statusChangeCause": "POS_CANCEL_DUE_TO_CLIENT",
+                            "statusChangeDate": "2023-02-15T23:59:59.000+08:00"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2022-11-23T05:00:07.000+08:00",
-                            "modifier": "batch",
-                            "gmtModified": "2022-11-23T05:00:07.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2023-02-17T00:05:04.000+08:00",
+                            "modifier": "system",
+                            "gmtModified": "2023-02-17T00:05:04.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110421,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167111,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 557,
                             "unit": 1,
-                            "sumInsured": "45.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "65",
+                            "holderCustomerId": 123951778955266,
                             "status": "TERMINATION",
-                            "liabilityCode": "1346"
+                            "periodPremium": "0.00",
+                            "statusChangeCause": "POS_CANCEL_DUE_TO_CLIENT",
+                            "statusChangeDate": "2023-02-15T23:59:59.000+08:00"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2022-11-23T05:00:07.000+08:00",
-                            "modifier": "batch",
-                            "gmtModified": "2022-11-23T05:00:07.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2023-02-17T00:05:04.000+08:00",
+                            "modifier": "system",
+                            "gmtModified": "2023-02-17T00:05:04.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110422,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167112,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 558,
                             "unit": 1,
-                            "sumInsured": "25.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "35",
+                            "holderCustomerId": 123951778955266,
                             "status": "TERMINATION",
-                            "liabilityCode": "1347",
-                            "periodPremium": "9.25"
+                            "periodPremium": "4.58",
+                            "statusChangeCause": "POS_CANCEL_DUE_TO_CLIENT",
+                            "statusChangeDate": "2023-02-15T23:59:59.000+08:00"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2022-11-23T05:00:07.000+08:00",
-                            "modifier": "batch",
-                            "gmtModified": "2022-11-23T05:00:07.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2023-02-17T00:05:04.000+08:00",
+                            "modifier": "system",
+                            "gmtModified": "2023-02-17T00:05:04.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110423,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167113,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 559,
                             "unit": 1,
-                            "sumInsured": "25.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "35",
+                            "holderCustomerId": 123951778955266,
                             "status": "TERMINATION",
-                            "liabilityCode": "1348"
+                            "periodPremium": "0.00",
+                            "statusChangeCause": "POS_CANCEL_DUE_TO_CLIENT",
+                            "statusChangeDate": "2023-02-15T23:59:59.000+08:00"
                         }
                     ],
                     "policyChannelList": [
                         {
-                            "policyChannelId": 4409617,
-                            "policyId": 2160009,
-                            "holderCustomerId": 313348,
+                            "policyChannelId": 123951781167106,
+                            "policyId": 123951781167108,
+                            "holderCustomerId": 123951778955266,
                             "channelCode": "SNACK",
-                            "transactionEffectiveDate": "2021-11-23T00:00:00.000+08:00",
-                            "policyTransactionNo": "SP000000050103",
-                            "policyProductId": 4409617
+                            "transactionEffectiveDate": "2022-11-16T00:00:00.000+08:00",
+                            "policyTransactionNo": "SP002000800021",
+                            "policyProductId": 123951781167108
                         }
                     ],
                     "policyInsuredObjectList": []
@@ -652,91 +430,110 @@
             "policyInsuredObjectList": [],
             "policyPayerList": [
                 {
-                    "policyPayerId": 1350965,
-                    "policyId": 2160009,
+                    "policyPayerId": 123951781167108,
+                    "policyId": 123951781167108,
                     "payerType": "FIRST",
-                    "customerId": 313349,
-                    "payAccountId": 169100,
+                    "customerId": 299310,
+                    "payAccountId": 165049,
                     "payMethod": "STRIPE_PAY",
-                    "holderCustomerId": 313348
+                    "holderCustomerId": 123951778955266
                 },
                 {
-                    "policyPayerId": 200001350965,
-                    "policyId": 2160009,
+                    "policyPayerId": 123951781167109,
+                    "policyId": 123951781167108,
                     "payerType": "RENEWAL",
-                    "customerId": 313349,
-                    "payAccountId": 169100,
+                    "customerId": 299310,
+                    "payAccountId": 165049,
                     "payMethod": "STRIPE_PAY",
-                    "holderCustomerId": 313348
+                    "holderCustomerId": 123951778955266
                 }
             ],
             "policyVersion": {
-                "policyId": 2160009,
-                "bizApplyNo": "271149834429803",
-                "version": "13",
-                "holderCustomerId": 313348,
-                "gmtModified": "2022-11-23T05:00:07.000+08:00"
+                "policyId": 123951781167108,
+                "bizApplyNo": "000000000391018",
+                "version": "5",
+                "holderCustomerId": 123951778955266,
+                "gmtModified": "2023-02-17T00:05:04.000+08:00"
             },
-            "policyRelations": [],
-            "policyRelationList": [],
+            "policyRelations": [
+                {
+                    "policyId": 123951781167108,
+                    "type": "RENEWAL_POLICY",
+                    "relationNo": "SP000000020149",
+                    "holderCustomerId": 123951778955266
+                }
+            ],
+            "policyRelationList": [
+                {
+                    "policyId": 123951781167108,
+                    "type": "RENEWAL_POLICY",
+                    "relationNo": "SP000000020149",
+                    "holderCustomerId": 123951778955266
+                }
+            ],
             "policyClaimStackList": [],
             "createBillFlag": "YES"
         },
         {
-            "creator": "DMUSER",
-            "gmtCreated": "2022-10-23T02:01:37.000+08:00",
+            "creator": "system",
+            "gmtCreated": "2023-02-16T02:04:06.000+08:00",
             "modifier": "system",
-            "gmtModified": "2022-10-23T02:01:37.000+08:00",
+            "gmtModified": "2023-02-16T02:04:06.000+08:00",
             "isDeleted": "N",
-            "policyId": 2160009,
-            "issuanceId": 2441498,
-            "bizApplyNo": "271149834429803",
+            "extraInfo": "{}",
+            "policyId": 123951781167108,
+            "issuanceId": 123951779037187,
+            "bizApplyNo": "000000000391018",
             "goodsId": 627448349720576,
             "goodsPlanId": 627448752373760,
-            "orderNo": "TRDNO00001463155",
-            "issuanceNo": "63202111230060386105",
-            "policyNo": "SP000000050103",
+            "orderNo": "TRDNO00001399937",
+            "issuanceNo": "63202211160200200948",
+            "policyNo": "SP002000800021",
             "campaignDefId": 1,
             "packageDefId": 627324886188032,
             "policyStatus": "POLICY_EFFECT",
-            "insureDate": "2021-11-23T21:59:40.000+08:00",
-            "issueDate": "2021-11-23T21:59:42.000+08:00",
-            "signOffDate": "2021-11-23T21:59:42.000+08:00",
-            "holderCustomerId": 313348,
-            "policyTransactionNo": "SP000000050103_12",
-            "policyTransactionId": 119603298746373,
+            "insureDate": "2022-11-16T02:00:13.000+08:00",
+            "issueDate": "2022-11-16T02:00:15.000+08:00",
+            "signOffDate": "2021-11-16T23:22:25.000+08:00",
+            "policyDeliveryMethod": "E_POLICY",
+            "holderCustomerId": 123951778955266,
+            "policyTransactionNo": "63202301010200418886",
+            "policyTransactionId": 140622107295750,
             "transactionType": "INSTALLMENT_PREMIUM",
             "changeSource": "BATCH",
             "policyTransactionStatus": "EFFECTIVE",
-            "lastPaidExpiredDate": "2022-11-22T23:59:59.000+08:00",
+            "renewalSource": "AUTO_RENEWAL",
+            "lastPaidExpiredDate": "2023-11-15T23:59:59.000+08:00",
             "goodsCode": "SNACK_InjuryIllness",
             "goodsPlanCode": "SNACK_InjuryIllness_01",
             "packageCode": "SNACK_InjuryIllness_01",
             "currency": "SGD",
             "zoneId": "Asia/Singapore",
             "autoRenewal": "YES",
+            "renewalTimes": 1,
+            "proposalConfirmDate": "2022-11-16T02:00:15.000+08:00",
             "policyHolder": {
-                "policyHolderId": 1535965,
+                "policyHolderId": 123951781167108,
                 "userType": "PERSONAL",
-                "customerId": 313348,
-                "policyId": 2160009
+                "customerId": 123951778955266,
+                "policyId": 123951781167108
             },
             "policyProductList": [
                 {
-                    "creator": "DMUSER",
-                    "gmtCreated": "2022-10-23T02:01:37.000+08:00",
+                    "creator": "system",
+                    "gmtCreated": "2023-02-16T02:04:06.000+08:00",
                     "modifier": "SYSTEM",
-                    "gmtModified": "2022-10-23T02:01:37.000+08:00",
+                    "gmtModified": "2023-02-16T02:04:06.000+08:00",
                     "isDeleted": "N",
-                    "policyProductId": 4409617,
-                    "policyId": 2160009,
+                    "policyProductId": 123951781167108,
+                    "policyId": 123951781167108,
                     "productId": 619971247865857,
                     "productCode": "SNACK_InjuryIllness",
-                    "effectiveDate": "2021-11-23T00:00:00.000+08:00",
-                    "expiryDate": "2022-11-22T23:59:59.000+08:00",
-                    "riskStartDate": "2021-11-23T00:00:00.000+08:00",
+                    "effectiveDate": "2022-11-16T00:00:00.000+08:00",
+                    "expiryDate": "2023-11-15T23:59:59.000+08:00",
+                    "riskStartDate": "2022-11-16T00:00:00.000+08:00",
                     "unit": 1,
-                    "sumInsured": "140.0",
+                    "sumInsured": "200",
                     "sumInsuredDownSell": "0",
                     "status": "EFFECTIVE",
                     "currency": "SGD",
@@ -746,236 +543,107 @@
                     "premiumPeriod": "1",
                     "premiumFrequency": "MONTH",
                     "canRenewal": "CAN",
-                    "holderCustomerId": 313348,
+                    "holderCustomerId": 123951778955266,
                     "policyScenario": "NORMAL",
                     "actualPremium": "9.90",
-                    "tax": "0.65",
+                    "tax": "0.73",
                     "totalInstallPremium": "9.90",
-                    "premiumAfterDiscount": "9.25",
-                    "periodPremium": "9.25",
-                    "periodStandardPremium": "9.25",
-                    "periodStandardPremiumIncTax": "9.90",
+                    "premiumAfterDiscount": "9.17",
+                    "periodPremium": "9.17",
+                    "periodStandardPremium": "9.17",
+                    "periodStandardPremiumIncTax": "9.9",
+                    "periodExtraPremium": "0",
+                    "extraPremium": "0",
                     "policyInsurantList": [
                         {
-                            "customerDeclarationList": [
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040002",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602344,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040002",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040003",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602345,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040003",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040004",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602346,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040004",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040005",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602347,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040005",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042002",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602348,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042002",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042004",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602349,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042004",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042005",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602350,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042005",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042007",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602351,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042007",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042008",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602352,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042008",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                }
-                            ],
-                            "policyInsurantId": 53209337,
-                            "holderCustomerId": 313348,
+                            "policyInsurantId": 123951781167105,
+                            "holderCustomerId": 123951778955266,
                             "holderRelation": "SELF",
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "userType": "PERSONAL",
-                            "customerId": 313350,
+                            "customerId": 123951778955267,
+                            "insuredEffectiveDate": "2022-11-16T00:00:00.000+08:00",
+                            "insuredExpiryDate": "2023-11-15T23:59:59.000+08:00",
+                            "status": "VALID",
                             "occupationClass": "1"
                         }
                     ],
                     "policyProductLiabilityList": [
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2022-10-23T02:01:37.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2023-02-16T02:04:06.000+08:00",
                             "modifier": "SYSTEM",
-                            "gmtModified": "2022-10-23T02:01:37.000+08:00",
+                            "gmtModified": "2023-02-16T02:04:06.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110420,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167110,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 556,
                             "unit": 1,
-                            "sumInsured": "45.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "65",
+                            "holderCustomerId": 123951778955266,
                             "status": "EFFECT",
-                            "liabilityCode": "1345",
-                            "periodPremium": "9.25"
+                            "periodPremium": "4.59"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2022-10-23T02:01:37.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2023-02-16T02:04:06.000+08:00",
                             "modifier": "SYSTEM",
-                            "gmtModified": "2022-10-23T02:01:37.000+08:00",
+                            "gmtModified": "2023-02-16T02:04:06.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110421,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167111,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 557,
                             "unit": 1,
-                            "sumInsured": "45.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "65",
+                            "holderCustomerId": 123951778955266,
                             "status": "EFFECT",
-                            "liabilityCode": "1346"
+                            "periodPremium": "0.00"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2022-10-23T02:01:37.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2023-02-16T02:04:06.000+08:00",
                             "modifier": "SYSTEM",
-                            "gmtModified": "2022-10-23T02:01:37.000+08:00",
+                            "gmtModified": "2023-02-16T02:04:06.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110422,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167112,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 558,
                             "unit": 1,
-                            "sumInsured": "25.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "35",
+                            "holderCustomerId": 123951778955266,
                             "status": "EFFECT",
-                            "liabilityCode": "1347",
-                            "periodPremium": "9.25"
+                            "periodPremium": "4.58"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2022-10-23T02:01:37.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2023-02-16T02:04:06.000+08:00",
                             "modifier": "SYSTEM",
-                            "gmtModified": "2022-10-23T02:01:37.000+08:00",
+                            "gmtModified": "2023-02-16T02:04:06.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110423,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167113,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 559,
                             "unit": 1,
-                            "sumInsured": "25.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "35",
+                            "holderCustomerId": 123951778955266,
                             "status": "EFFECT",
-                            "liabilityCode": "1348"
+                            "periodPremium": "0.00"
                         }
                     ],
                     "policyChannelList": [
                         {
-                            "policyChannelId": 4409617,
-                            "policyId": 2160009,
-                            "holderCustomerId": 313348,
+                            "policyChannelId": 123951781167106,
+                            "policyId": 123951781167108,
+                            "holderCustomerId": 123951778955266,
                             "channelCode": "SNACK",
-                            "transactionEffectiveDate": "2021-11-23T00:00:00.000+08:00",
-                            "policyTransactionNo": "SP000000050103",
-                            "policyProductId": 4409617
+                            "transactionEffectiveDate": "2022-11-16T00:00:00.000+08:00",
+                            "policyTransactionNo": "SP002000800021",
+                            "policyProductId": 123951781167108
                         }
                     ],
                     "policyInsuredObjectList": []
@@ -984,91 +652,110 @@
             "policyInsuredObjectList": [],
             "policyPayerList": [
                 {
-                    "policyPayerId": 1350965,
-                    "policyId": 2160009,
+                    "policyPayerId": 123951781167108,
+                    "policyId": 123951781167108,
                     "payerType": "FIRST",
-                    "customerId": 313349,
-                    "payAccountId": 169100,
+                    "customerId": 299310,
+                    "payAccountId": 165049,
                     "payMethod": "STRIPE_PAY",
-                    "holderCustomerId": 313348
+                    "holderCustomerId": 123951778955266
                 },
                 {
-                    "policyPayerId": 200001350965,
-                    "policyId": 2160009,
+                    "policyPayerId": 123951781167109,
+                    "policyId": 123951781167108,
                     "payerType": "RENEWAL",
-                    "customerId": 313349,
-                    "payAccountId": 169100,
+                    "customerId": 299310,
+                    "payAccountId": 165049,
                     "payMethod": "STRIPE_PAY",
-                    "holderCustomerId": 313348
+                    "holderCustomerId": 123951778955266
                 }
             ],
             "policyVersion": {
-                "policyId": 2160009,
-                "bizApplyNo": "271149834429803",
-                "version": "12",
-                "holderCustomerId": 313348,
-                "gmtModified": "2022-10-23T02:01:37.000+08:00"
+                "policyId": 123951781167108,
+                "bizApplyNo": "000000000391018",
+                "version": "4",
+                "holderCustomerId": 123951778955266,
+                "gmtModified": "2023-02-16T02:04:06.000+08:00"
             },
-            "policyRelations": [],
-            "policyRelationList": [],
+            "policyRelations": [
+                {
+                    "policyId": 123951781167108,
+                    "type": "RENEWAL_POLICY",
+                    "relationNo": "SP000000020149",
+                    "holderCustomerId": 123951778955266
+                }
+            ],
+            "policyRelationList": [
+                {
+                    "policyId": 123951781167108,
+                    "type": "RENEWAL_POLICY",
+                    "relationNo": "SP000000020149",
+                    "holderCustomerId": 123951778955266
+                }
+            ],
             "policyClaimStackList": [],
             "createBillFlag": "YES"
         },
         {
-            "creator": "DMUSER",
-            "gmtCreated": "2022-09-23T00:07:55.000+08:00",
+            "creator": "system",
+            "gmtCreated": "2023-01-16T02:03:06.000+08:00",
             "modifier": "system",
-            "gmtModified": "2022-09-23T00:07:55.000+08:00",
+            "gmtModified": "2023-01-16T02:03:06.000+08:00",
             "isDeleted": "N",
-            "policyId": 2160009,
-            "issuanceId": 2441498,
-            "bizApplyNo": "271149834429803",
+            "extraInfo": "{}",
+            "policyId": 123951781167108,
+            "issuanceId": 123951779037187,
+            "bizApplyNo": "000000000391018",
             "goodsId": 627448349720576,
             "goodsPlanId": 627448752373760,
-            "orderNo": "TRDNO00001463155",
-            "issuanceNo": "63202111230060386105",
-            "policyNo": "SP000000050103",
+            "orderNo": "TRDNO00001399937",
+            "issuanceNo": "63202211160200200948",
+            "policyNo": "SP002000800021",
             "campaignDefId": 1,
             "packageDefId": 627324886188032,
             "policyStatus": "POLICY_EFFECT",
-            "insureDate": "2021-11-23T21:59:40.000+08:00",
-            "issueDate": "2021-11-23T21:59:42.000+08:00",
-            "signOffDate": "2021-11-23T21:59:42.000+08:00",
-            "holderCustomerId": 313348,
-            "policyTransactionNo": "SP000000050103_11",
-            "policyTransactionId": 114153173991428,
+            "insureDate": "2022-11-16T02:00:13.000+08:00",
+            "issueDate": "2022-11-16T02:00:15.000+08:00",
+            "signOffDate": "2021-11-16T23:22:25.000+08:00",
+            "policyDeliveryMethod": "E_POLICY",
+            "holderCustomerId": 123951778955266,
+            "policyTransactionNo": "63202301010200418873",
+            "policyTransactionId": 135004969517062,
             "transactionType": "INSTALLMENT_PREMIUM",
             "changeSource": "BATCH",
             "policyTransactionStatus": "EFFECTIVE",
-            "lastPaidExpiredDate": "2022-11-22T23:59:59.000+08:00",
+            "renewalSource": "AUTO_RENEWAL",
+            "lastPaidExpiredDate": "2023-11-15T23:59:59.000+08:00",
             "goodsCode": "SNACK_InjuryIllness",
             "goodsPlanCode": "SNACK_InjuryIllness_01",
             "packageCode": "SNACK_InjuryIllness_01",
             "currency": "SGD",
             "zoneId": "Asia/Singapore",
             "autoRenewal": "YES",
+            "renewalTimes": 1,
+            "proposalConfirmDate": "2022-11-16T02:00:15.000+08:00",
             "policyHolder": {
-                "policyHolderId": 1535965,
+                "policyHolderId": 123951781167108,
                 "userType": "PERSONAL",
-                "customerId": 313348,
-                "policyId": 2160009
+                "customerId": 123951778955266,
+                "policyId": 123951781167108
             },
             "policyProductList": [
                 {
-                    "creator": "DMUSER",
-                    "gmtCreated": "2022-09-23T00:07:55.000+08:00",
+                    "creator": "system",
+                    "gmtCreated": "2023-01-16T02:03:06.000+08:00",
                     "modifier": "SYSTEM",
-                    "gmtModified": "2022-09-23T00:07:55.000+08:00",
+                    "gmtModified": "2023-01-16T02:03:06.000+08:00",
                     "isDeleted": "N",
-                    "policyProductId": 4409617,
-                    "policyId": 2160009,
+                    "policyProductId": 123951781167108,
+                    "policyId": 123951781167108,
                     "productId": 619971247865857,
                     "productCode": "SNACK_InjuryIllness",
-                    "effectiveDate": "2021-11-23T00:00:00.000+08:00",
-                    "expiryDate": "2022-11-22T23:59:59.000+08:00",
-                    "riskStartDate": "2021-11-23T00:00:00.000+08:00",
+                    "effectiveDate": "2022-11-16T00:00:00.000+08:00",
+                    "expiryDate": "2023-11-15T23:59:59.000+08:00",
+                    "riskStartDate": "2022-11-16T00:00:00.000+08:00",
                     "unit": 1,
-                    "sumInsured": "140.0",
+                    "sumInsured": "200",
                     "sumInsuredDownSell": "0",
                     "status": "EFFECTIVE",
                     "currency": "SGD",
@@ -1078,7 +765,228 @@
                     "premiumPeriod": "1",
                     "premiumFrequency": "MONTH",
                     "canRenewal": "CAN",
-                    "holderCustomerId": 313348,
+                    "holderCustomerId": 123951778955266,
+                    "policyScenario": "NORMAL",
+                    "actualPremium": "9.90",
+                    "tax": "0.73",
+                    "totalInstallPremium": "9.90",
+                    "premiumAfterDiscount": "9.17",
+                    "periodPremium": "9.17",
+                    "periodStandardPremium": "9.17",
+                    "periodStandardPremiumIncTax": "9.9",
+                    "periodExtraPremium": "0",
+                    "extraPremium": "0",
+                    "policyInsurantList": [
+                        {
+                            "policyInsurantId": 123951781167105,
+                            "holderCustomerId": 123951778955266,
+                            "holderRelation": "SELF",
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
+                            "userType": "PERSONAL",
+                            "customerId": 123951778955267,
+                            "insuredEffectiveDate": "2022-11-16T00:00:00.000+08:00",
+                            "insuredExpiryDate": "2023-11-15T23:59:59.000+08:00",
+                            "status": "VALID",
+                            "occupationClass": "1"
+                        }
+                    ],
+                    "policyProductLiabilityList": [
+                        {
+                            "creator": "system",
+                            "gmtCreated": "2023-01-16T02:03:06.000+08:00",
+                            "modifier": "SYSTEM",
+                            "gmtModified": "2023-01-16T02:03:06.000+08:00",
+                            "isDeleted": "N",
+                            "policyProductLiabilityId": 123951781167110,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
+                            "liabilityId": 556,
+                            "unit": 1,
+                            "sumInsured": "65",
+                            "holderCustomerId": 123951778955266,
+                            "status": "EFFECT",
+                            "periodPremium": "4.59"
+                        },
+                        {
+                            "creator": "system",
+                            "gmtCreated": "2023-01-16T02:03:06.000+08:00",
+                            "modifier": "SYSTEM",
+                            "gmtModified": "2023-01-16T02:03:06.000+08:00",
+                            "isDeleted": "N",
+                            "policyProductLiabilityId": 123951781167111,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
+                            "liabilityId": 557,
+                            "unit": 1,
+                            "sumInsured": "65",
+                            "holderCustomerId": 123951778955266,
+                            "status": "EFFECT",
+                            "periodPremium": "0.00"
+                        },
+                        {
+                            "creator": "system",
+                            "gmtCreated": "2023-01-16T02:03:06.000+08:00",
+                            "modifier": "SYSTEM",
+                            "gmtModified": "2023-01-16T02:03:06.000+08:00",
+                            "isDeleted": "N",
+                            "policyProductLiabilityId": 123951781167112,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
+                            "liabilityId": 558,
+                            "unit": 1,
+                            "sumInsured": "35",
+                            "holderCustomerId": 123951778955266,
+                            "status": "EFFECT",
+                            "periodPremium": "4.58"
+                        },
+                        {
+                            "creator": "system",
+                            "gmtCreated": "2023-01-16T02:03:06.000+08:00",
+                            "modifier": "SYSTEM",
+                            "gmtModified": "2023-01-16T02:03:06.000+08:00",
+                            "isDeleted": "N",
+                            "policyProductLiabilityId": 123951781167113,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
+                            "liabilityId": 559,
+                            "unit": 1,
+                            "sumInsured": "35",
+                            "holderCustomerId": 123951778955266,
+                            "status": "EFFECT",
+                            "periodPremium": "0.00"
+                        }
+                    ],
+                    "policyChannelList": [
+                        {
+                            "policyChannelId": 123951781167106,
+                            "policyId": 123951781167108,
+                            "holderCustomerId": 123951778955266,
+                            "channelCode": "SNACK",
+                            "transactionEffectiveDate": "2022-11-16T00:00:00.000+08:00",
+                            "policyTransactionNo": "SP002000800021",
+                            "policyProductId": 123951781167108
+                        }
+                    ],
+                    "policyInsuredObjectList": []
+                }
+            ],
+            "policyInsuredObjectList": [],
+            "policyPayerList": [
+                {
+                    "policyPayerId": 123951781167108,
+                    "policyId": 123951781167108,
+                    "payerType": "FIRST",
+                    "customerId": 299310,
+                    "payAccountId": 165049,
+                    "payMethod": "STRIPE_PAY",
+                    "holderCustomerId": 123951778955266
+                },
+                {
+                    "policyPayerId": 123951781167109,
+                    "policyId": 123951781167108,
+                    "payerType": "RENEWAL",
+                    "customerId": 299310,
+                    "payAccountId": 165049,
+                    "payMethod": "STRIPE_PAY",
+                    "holderCustomerId": 123951778955266
+                }
+            ],
+            "policyVersion": {
+                "policyId": 123951781167108,
+                "bizApplyNo": "000000000391018",
+                "version": "3",
+                "holderCustomerId": 123951778955266,
+                "gmtModified": "2023-01-16T02:03:06.000+08:00"
+            },
+            "policyRelations": [
+                {
+                    "policyId": 123951781167108,
+                    "type": "RENEWAL_POLICY",
+                    "relationNo": "SP000000020149",
+                    "holderCustomerId": 123951778955266
+                }
+            ],
+            "policyRelationList": [
+                {
+                    "policyId": 123951781167108,
+                    "type": "RENEWAL_POLICY",
+                    "relationNo": "SP000000020149",
+                    "holderCustomerId": 123951778955266
+                }
+            ],
+            "policyClaimStackList": [],
+            "createBillFlag": "YES"
+        },
+        {
+            "creator": "system",
+            "gmtCreated": "2022-12-16T02:41:34.000+08:00",
+            "modifier": "system",
+            "gmtModified": "2022-12-16T02:41:34.000+08:00",
+            "isDeleted": "N",
+            "extraInfo": "{}",
+            "policyId": 123951781167108,
+            "issuanceId": 123951779037187,
+            "bizApplyNo": "000000000391018",
+            "goodsId": 627448349720576,
+            "goodsPlanId": 627448752373760,
+            "orderNo": "TRDNO00001399937",
+            "issuanceNo": "63202211160200200948",
+            "policyNo": "SP002000800021",
+            "campaignDefId": 1,
+            "packageDefId": 627324886188032,
+            "policyStatus": "POLICY_EFFECT",
+            "insureDate": "2022-11-16T02:00:13.000+08:00",
+            "issueDate": "2022-11-16T02:00:15.000+08:00",
+            "signOffDate": "2021-11-16T23:22:25.000+08:00",
+            "holderCustomerId": 123951778955266,
+            "policyTransactionNo": "63202211160200165940",
+            "policyTransactionId": 129392797925384,
+            "transactionType": "INSTALLMENT_PREMIUM",
+            "changeSource": "BATCH",
+            "policyTransactionStatus": "EFFECTIVE",
+            "renewalSource": "AUTO_RENEWAL",
+            "lastPaidExpiredDate": "2023-11-15T23:59:59.000+08:00",
+            "goodsCode": "SNACK_InjuryIllness",
+            "goodsPlanCode": "SNACK_InjuryIllness_01",
+            "packageCode": "SNACK_InjuryIllness_01",
+            "currency": "SGD",
+            "zoneId": "Asia/Singapore",
+            "autoRenewal": "YES",
+            "renewalTimes": 1,
+            "proposalConfirmDate": "2022-11-16T02:00:15.000+08:00",
+            "policyHolder": {
+                "policyHolderId": 123951781167108,
+                "userType": "PERSONAL",
+                "customerId": 123951778955266,
+                "policyId": 123951781167108
+            },
+            "policyProductList": [
+                {
+                    "creator": "system",
+                    "gmtCreated": "2022-12-16T02:41:34.000+08:00",
+                    "modifier": "SYSTEM",
+                    "gmtModified": "2022-12-16T02:41:34.000+08:00",
+                    "isDeleted": "N",
+                    "policyProductId": 123951781167108,
+                    "policyId": 123951781167108,
+                    "productId": 619971247865857,
+                    "productCode": "SNACK_InjuryIllness",
+                    "effectiveDate": "2022-11-16T00:00:00.000+08:00",
+                    "expiryDate": "2023-11-15T23:59:59.000+08:00",
+                    "riskStartDate": "2022-11-16T00:00:00.000+08:00",
+                    "unit": 1,
+                    "sumInsured": "200",
+                    "sumInsuredDownSell": "0",
+                    "status": "EFFECTIVE",
+                    "currency": "SGD",
+                    "coveragePeriodType": "MONTH",
+                    "coveragePeriod": "12",
+                    "premiumPeriodType": "YEARFULL",
+                    "premiumPeriod": "1",
+                    "premiumFrequency": "MONTH",
+                    "canRenewal": "CAN",
+                    "holderCustomerId": 123951778955266,
                     "policyScenario": "NORMAL",
                     "actualPremium": "9.90",
                     "tax": "0.65",
@@ -1089,225 +997,94 @@
                     "periodStandardPremiumIncTax": "9.90",
                     "policyInsurantList": [
                         {
-                            "customerDeclarationList": [
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040002",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602344,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040002",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040003",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602345,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040003",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040004",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602346,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040004",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040005",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602347,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040005",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042002",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602348,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042002",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042004",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602349,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042004",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042005",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602350,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042005",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042007",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602351,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042007",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042008",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602352,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042008",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                }
-                            ],
-                            "policyInsurantId": 53209337,
-                            "holderCustomerId": 313348,
+                            "policyInsurantId": 123951781167105,
+                            "holderCustomerId": 123951778955266,
                             "holderRelation": "SELF",
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "userType": "PERSONAL",
-                            "customerId": 313350,
+                            "customerId": 123951778955267,
+                            "insuredEffectiveDate": "2022-11-16T00:00:00.000+08:00",
+                            "insuredExpiryDate": "2023-11-15T23:59:59.000+08:00",
+                            "status": "VALID",
                             "occupationClass": "1"
                         }
                     ],
                     "policyProductLiabilityList": [
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2022-09-23T00:07:55.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2022-12-16T02:41:34.000+08:00",
                             "modifier": "SYSTEM",
-                            "gmtModified": "2022-09-23T00:07:55.000+08:00",
+                            "gmtModified": "2022-12-16T02:41:34.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110420,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167110,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 556,
                             "unit": 1,
-                            "sumInsured": "45.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "65",
+                            "holderCustomerId": 123951778955266,
                             "status": "EFFECT",
-                            "liabilityCode": "1345",
-                            "periodPremium": "9.25"
+                            "periodPremium": "4.62"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2022-09-23T00:07:55.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2022-12-16T02:41:34.000+08:00",
                             "modifier": "SYSTEM",
-                            "gmtModified": "2022-09-23T00:07:55.000+08:00",
+                            "gmtModified": "2022-12-16T02:41:34.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110421,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167111,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 557,
                             "unit": 1,
-                            "sumInsured": "45.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "65",
+                            "holderCustomerId": 123951778955266,
                             "status": "EFFECT",
-                            "liabilityCode": "1346"
+                            "periodPremium": "0.00"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2022-09-23T00:07:55.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2022-12-16T02:41:34.000+08:00",
                             "modifier": "SYSTEM",
-                            "gmtModified": "2022-09-23T00:07:55.000+08:00",
+                            "gmtModified": "2022-12-16T02:41:34.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110422,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167112,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 558,
                             "unit": 1,
-                            "sumInsured": "25.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "35",
+                            "holderCustomerId": 123951778955266,
                             "status": "EFFECT",
-                            "liabilityCode": "1347",
-                            "periodPremium": "9.25"
+                            "periodPremium": "4.63"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2022-09-23T00:07:55.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2022-12-16T02:41:34.000+08:00",
                             "modifier": "SYSTEM",
-                            "gmtModified": "2022-09-23T00:07:55.000+08:00",
+                            "gmtModified": "2022-12-16T02:41:34.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110423,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167113,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 559,
                             "unit": 1,
-                            "sumInsured": "25.0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "35",
+                            "holderCustomerId": 123951778955266,
                             "status": "EFFECT",
-                            "liabilityCode": "1348"
+                            "periodPremium": "0.00"
                         }
                     ],
                     "policyChannelList": [
                         {
-                            "policyChannelId": 4409617,
-                            "policyId": 2160009,
-                            "holderCustomerId": 313348,
+                            "policyChannelId": 123951781167106,
+                            "policyId": 123951781167108,
+                            "holderCustomerId": 123951778955266,
                             "channelCode": "SNACK",
-                            "transactionEffectiveDate": "2021-11-23T00:00:00.000+08:00",
-                            "policyTransactionNo": "SP000000050103",
-                            "policyProductId": 4409617
+                            "transactionEffectiveDate": "2022-11-16T00:00:00.000+08:00",
+                            "policyTransactionNo": "SP002000800021",
+                            "policyProductId": 123951781167108
                         }
                     ],
                     "policyInsuredObjectList": []
@@ -1316,348 +1093,217 @@
             "policyInsuredObjectList": [],
             "policyPayerList": [
                 {
-                    "policyPayerId": 1350965,
-                    "policyId": 2160009,
+                    "policyPayerId": 123951781167108,
+                    "policyId": 123951781167108,
                     "payerType": "FIRST",
-                    "customerId": 313349,
-                    "payAccountId": 169100,
+                    "customerId": 299310,
+                    "payAccountId": 165049,
                     "payMethod": "STRIPE_PAY",
-                    "holderCustomerId": 313348
+                    "holderCustomerId": 123951778955266
                 },
                 {
-                    "policyPayerId": 200001350965,
-                    "policyId": 2160009,
+                    "policyPayerId": 123951781167109,
+                    "policyId": 123951781167108,
                     "payerType": "RENEWAL",
-                    "customerId": 313349,
-                    "payAccountId": 169100,
+                    "customerId": 299310,
+                    "payAccountId": 165049,
                     "payMethod": "STRIPE_PAY",
-                    "holderCustomerId": 313348
+                    "holderCustomerId": 123951778955266
                 }
             ],
             "policyVersion": {
-                "policyId": 2160009,
-                "bizApplyNo": "271149834429803",
-                "version": "11",
-                "holderCustomerId": 313348,
-                "gmtModified": "2022-09-23T00:07:55.000+08:00"
+                "policyId": 123951781167108,
+                "bizApplyNo": "000000000391018",
+                "version": "2",
+                "holderCustomerId": 123951778955266,
+                "gmtModified": "2022-12-16T02:41:34.000+08:00"
             },
-            "policyRelations": [],
-            "policyRelationList": [],
+            "policyRelations": [
+                {
+                    "policyId": 123951781167108,
+                    "type": "RENEWAL_POLICY",
+                    "relationNo": "SP000000020149",
+                    "holderCustomerId": 123951778955266
+                }
+            ],
+            "policyRelationList": [
+                {
+                    "policyId": 123951781167108,
+                    "type": "RENEWAL_POLICY",
+                    "relationNo": "SP000000020149",
+                    "holderCustomerId": 123951778955266
+                }
+            ],
             "policyClaimStackList": [],
             "createBillFlag": "YES"
         },
         {
-            "creator": "DMUSER",
-            "gmtCreated": "2021-11-23T21:59:42.000+08:00",
+            "creator": "system",
+            "gmtCreated": "2022-11-16T02:00:15.000+08:00",
             "modifier": "system",
-            "gmtModified": "2021-11-23T21:59:42.000+08:00",
+            "gmtModified": "2022-11-16T02:00:15.000+08:00",
             "isDeleted": "N",
-            "policyId": 2160009,
-            "issuanceId": 2441498,
-            "bizApplyNo": "271149834429803",
+            "extraInfo": "{}",
+            "policyId": 123951781167108,
+            "issuanceId": 123951779037187,
+            "bizApplyNo": "000000000391018",
             "goodsId": 627448349720576,
             "goodsPlanId": 627448752373760,
-            "orderNo": "TRDNO00001463155",
-            "issuanceNo": "63202111230060386105",
-            "policyNo": "SP000000050103",
+            "orderNo": "TRDNO00001399937",
+            "issuanceNo": "63202211160200200948",
+            "policyNo": "SP002000800021",
             "campaignDefId": 1,
             "packageDefId": 627324886188032,
             "policyStatus": "POLICY_EFFECT",
-            "insureDate": "2021-11-23T21:59:40.000+08:00",
-            "acknowledgementDate": "2021-11-23T21:59:42.000+08:00",
-            "issueDate": "2021-11-23T21:59:42.000+08:00",
-            "signOffDate": "2021-11-23T21:59:42.000+08:00",
-            "holderCustomerId": 313348,
-            "policyTransactionNo": "SP000000050103",
-            "policyTransactionId": 2555393,
+            "insureDate": "2022-11-16T02:00:13.000+08:00",
+            "issueDate": "2022-11-16T02:00:15.000+08:00",
+            "signOffDate": "2021-11-16T23:22:25.000+08:00",
+            "holderCustomerId": 123951778955266,
+            "policyTransactionNo": "SP002000800021",
+            "policyTransactionId": 123951781167104,
             "transactionType": "EFECTIVE_POLICY",
             "changeSource": "ISSUANCE_ONLINE",
             "policyTransactionStatus": "EFFECTIVE",
             "renewalSource": "AUTO_RENEWAL",
-            "lastPaidExpiredDate": "2022-11-22T23:59:59.000+08:00",
+            "lastPaidExpiredDate": "2023-11-15T23:59:59.000+08:00",
             "goodsCode": "SNACK_InjuryIllness",
             "goodsPlanCode": "SNACK_InjuryIllness_01",
             "packageCode": "SNACK_InjuryIllness_01",
             "currency": "SGD",
             "zoneId": "Asia/Singapore",
+            "autoRenewal": "YES",
+            "renewalTimes": 1,
+            "proposalConfirmDate": "2022-11-16T02:00:15.000+08:00",
             "policyHolder": {
-                "policyHolderId": 1535965,
+                "policyHolderId": 123951781167108,
                 "userType": "PERSONAL",
-                "customerId": 313348,
-                "policyId": 2160009
+                "customerId": 123951778955266,
+                "policyId": 123951781167108
             },
             "policyProductList": [
                 {
-                    "creator": "DMUSER",
-                    "gmtCreated": "2021-11-23T21:59:42.000+08:00",
+                    "creator": "system",
+                    "gmtCreated": "2022-11-16T02:00:15.000+08:00",
                     "modifier": "system",
-                    "gmtModified": "2021-11-23T21:59:42.000+08:00",
+                    "gmtModified": "2022-11-16T02:00:15.000+08:00",
                     "isDeleted": "N",
-                    "policyProductId": 4409617,
-                    "policyId": 2160009,
+                    "policyProductId": 123951781167108,
+                    "policyId": 123951781167108,
                     "productId": 619971247865857,
                     "productCode": "SNACK_InjuryIllness",
-                    "effectiveDate": "2021-11-23T00:00:00.000+08:00",
-                    "expiryDate": "2022-11-22T23:59:59.000+08:00",
-                    "paymentExpiryDate": "2022-11-22T00:00:00.000+08:00",
-                    "riskStartDate": "2021-11-23T00:00:00.000+08:00",
+                    "effectiveDate": "2022-11-16T00:00:00.000+08:00",
+                    "expiryDate": "2023-11-15T23:59:59.000+08:00",
+                    "riskStartDate": "2022-11-16T00:00:00.000+08:00",
                     "unit": 1,
-                    "sumInsured": "140.0",
+                    "sumInsured": "200",
+                    "sumInsuredDownSell": "0",
                     "status": "EFFECTIVE",
                     "currency": "SGD",
                     "coveragePeriodType": "MONTH",
                     "coveragePeriod": "12",
                     "premiumPeriodType": "YEARFULL",
                     "premiumPeriod": "1",
+                    "premiumFrequency": "MONTH",
                     "canRenewal": "CAN",
-                    "holderCustomerId": 313348,
+                    "holderCustomerId": 123951778955266,
                     "policyScenario": "NORMAL",
                     "actualPremium": "9.90",
-                    "premiumDiscount": "0",
                     "tax": "0.65",
-                    "totalInstallPremium": "118.8",
+                    "totalInstallPremium": "9.90",
                     "premiumAfterDiscount": "9.25",
                     "periodPremium": "9.25",
                     "periodStandardPremium": "9.25",
-                    "periodStandardPremiumIncTax": "9.90",
+                    "periodStandardPremiumIncTax": "9.9",
                     "policyInsurantList": [
                         {
-                            "policyBeneficiaryList": [
-                                {
-                                    "policyBeneficiaryId": 885552,
-                                    "policyId": 2160009,
-                                    "insurantCustomerId": 313350,
-                                    "customerId": 313351,
-                                    "insurantRelation": "SELF",
-                                    "benefitType": "DEFAULT",
-                                    "benefitRatio": "100",
-                                    "holderCustomerId": 313348
-                                }
-                            ],
-                            "customerDeclarationList": [
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040002",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602344,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040002",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040003",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602345,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040003",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040004",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602346,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040004",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600040005",
-                                            "answerValue": "No"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602347,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600040005",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042002",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602348,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042002",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042004",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602349,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042004",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042005",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602350,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042005",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042007",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602351,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042007",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                },
-                                {
-                                    "declarationAnswerList": [
-                                        {
-                                            "answerId": "600042008",
-                                            "answerValue": "TRUE"
-                                        }
-                                    ],
-                                    "policyCustomerDeclarationId": 602352,
-                                    "policyId": 2160009,
-                                    "holderCustomerId": 313348,
-                                    "declarationKey": "600042008",
-                                    "customerId": 313350,
-                                    "customerType": "INSURANT"
-                                }
-                            ],
-                            "policyInsurantId": 1968009,
-                            "holderCustomerId": 313348,
+                            "policyInsurantId": 123951781167105,
+                            "holderCustomerId": 123951778955266,
                             "holderRelation": "SELF",
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "userType": "PERSONAL",
-                            "customerId": 313350
+                            "customerId": 123951778955267,
+                            "insuredEffectiveDate": "2022-11-16T00:00:00.000+08:00",
+                            "insuredExpiryDate": "2023-11-15T23:59:59.000+08:00",
+                            "status": "VALID",
+                            "occupationClass": "1"
                         }
                     ],
                     "policyProductLiabilityList": [
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2021-11-23T21:59:42.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2022-11-16T02:00:15.000+08:00",
                             "modifier": "system",
-                            "gmtModified": "2021-11-23T21:59:42.000+08:00",
+                            "gmtModified": "2022-11-16T02:00:15.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110420,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167110,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 556,
                             "unit": 1,
-                            "sumInsured": "45.0",
-                            "annualPremium": "4.95",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "65",
+                            "holderCustomerId": 123951778955266,
                             "status": "EFFECT",
-                            "liabilityCode": "1345",
-                            "periodPremium": "4.95"
+                            "periodPremium": "4.62"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2021-11-23T21:59:42.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2022-11-16T02:00:15.000+08:00",
                             "modifier": "system",
-                            "gmtModified": "2021-11-23T21:59:42.000+08:00",
+                            "gmtModified": "2022-11-16T02:00:15.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110421,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167111,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 557,
                             "unit": 1,
-                            "sumInsured": "45.0",
-                            "annualPremium": "0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "65",
+                            "holderCustomerId": 123951778955266,
                             "status": "EFFECT",
-                            "liabilityCode": "1346",
-                            "periodPremium": "0"
+                            "periodPremium": "0.00"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2021-11-23T21:59:42.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2022-11-16T02:00:15.000+08:00",
                             "modifier": "system",
-                            "gmtModified": "2021-11-23T21:59:42.000+08:00",
+                            "gmtModified": "2022-11-16T02:00:15.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110422,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167112,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 558,
                             "unit": 1,
-                            "sumInsured": "25.0",
-                            "annualPremium": "4.95",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "35",
+                            "holderCustomerId": 123951778955266,
                             "status": "EFFECT",
-                            "liabilityCode": "1347",
-                            "periodPremium": "4.95"
+                            "periodPremium": "4.63"
                         },
                         {
-                            "creator": "DMUSER",
-                            "gmtCreated": "2021-11-23T21:59:42.000+08:00",
+                            "creator": "system",
+                            "gmtCreated": "2022-11-16T02:00:15.000+08:00",
                             "modifier": "system",
-                            "gmtModified": "2021-11-23T21:59:42.000+08:00",
+                            "gmtModified": "2022-11-16T02:00:15.000+08:00",
                             "isDeleted": "N",
-                            "policyProductLiabilityId": 9110423,
-                            "policyId": 2160009,
-                            "policyProductId": 4409617,
+                            "policyProductLiabilityId": 123951781167113,
+                            "policyId": 123951781167108,
+                            "policyProductId": 123951781167108,
                             "liabilityId": 559,
                             "unit": 1,
-                            "sumInsured": "25.0",
-                            "annualPremium": "0",
-                            "holderCustomerId": 313348,
-                            "canOption": "NO",
+                            "sumInsured": "35",
+                            "holderCustomerId": 123951778955266,
                             "status": "EFFECT",
-                            "liabilityCode": "1348",
-                            "periodPremium": "0"
+                            "periodPremium": "0.00"
                         }
                     ],
                     "policyChannelList": [
                         {
-                            "policyChannelId": 4409617,
-                            "policyId": 2160009,
-                            "holderCustomerId": 313348,
+                            "policyChannelId": 123951781167106,
+                            "policyId": 123951781167108,
+                            "holderCustomerId": 123951778955266,
                             "channelCode": "SNACK",
-                            "transactionEffectiveDate": "2021-11-23T00:00:00.000+08:00",
-                            "policyTransactionNo": "SP000000050103",
-                            "policyProductId": 4409617
+                            "transactionEffectiveDate": "2022-11-16T00:00:00.000+08:00",
+                            "policyTransactionNo": "SP002000800021",
+                            "policyProductId": 123951781167108
                         }
                     ],
                     "policyInsuredObjectList": []
@@ -1666,23 +1312,47 @@
             "policyInsuredObjectList": [],
             "policyPayerList": [
                 {
-                    "policyPayerId": 1350965,
-                    "policyId": 2160009,
-                    "customerId": 313349,
-                    "payAccountId": 169100,
+                    "policyPayerId": 123951781167108,
+                    "policyId": 123951781167108,
+                    "payerType": "FIRST",
+                    "customerId": 299310,
+                    "payAccountId": 165049,
                     "payMethod": "STRIPE_PAY",
-                    "holderCustomerId": 313348
+                    "holderCustomerId": 123951778955266
+                },
+                {
+                    "policyPayerId": 123951781167109,
+                    "policyId": 123951781167108,
+                    "payerType": "RENEWAL",
+                    "customerId": 299310,
+                    "payAccountId": 165049,
+                    "payMethod": "STRIPE_PAY",
+                    "holderCustomerId": 123951778955266
                 }
             ],
             "policyVersion": {
-                "policyId": 2160009,
-                "bizApplyNo": "271149834429803",
+                "policyId": 123951781167108,
+                "bizApplyNo": "000000000391018",
                 "version": "1",
-                "holderCustomerId": 313348,
-                "gmtModified": "2021-11-23T21:59:42.000+08:00"
+                "holderCustomerId": 123951778955266,
+                "gmtModified": "2022-11-16T02:00:15.000+08:00"
             },
-            "policyRelations": [],
-            "policyRelationList": [],
+            "policyRelations": [
+                {
+                    "policyId": 123951781167108,
+                    "type": "RENEWAL_POLICY",
+                    "relationNo": "SP000000020149",
+                    "holderCustomerId": 123951778955266
+                }
+            ],
+            "policyRelationList": [
+                {
+                    "policyId": 123951781167108,
+                    "type": "RENEWAL_POLICY",
+                    "relationNo": "SP000000020149",
+                    "holderCustomerId": 123951778955266
+                }
+            ],
             "policyClaimStackList": [],
             "createBillFlag": "YES"
         }
@@ -1696,11 +1366,11 @@
         "unpaged": false
     },
     "last": true,
-    "totalElements": 5,
+    "totalElements": 6,
     "totalPages": 1,
     "first": true,
     "sort": [],
-    "numberOfElements": 5,
+    "numberOfElements": 6,
     "size": 20,
     "number": 0,
     "empty": false
