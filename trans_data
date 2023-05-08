@@ -1,46 +1,309 @@
 {
-    "formulaCode": "GSTforCarroRetail",
-    "calFactors": [
-        {
-            "factorCode": "insureDate",
-            "factorValue": "2022-02-01",
-            "schemaDefType": "POLICY",
-            "schemaDefRefId": "1",
-            "factorSourceType": 1
+    "goodsId": 350541389496320,
+    "bizType": "NB",
+    "calculationMethod": "CALCULATE_PREMIUM",
+    "insureDate": "2021-10-21T17:06:45.000+08:00",
+    "salesChannelCode": "Carro",
+    "policyPeriodNo": 1,
+    "goodsPlan": {
+        "planId": 350551237722117,
+        "planLevelSchemaFormulaFactors": {
+            "policyFactors": {
+                "schemaDefRefId": 1,
+                "factors": [
+                    {
+                        "code": "insureDate",
+                        "value": "2021-10-21T17:06:45.000+08:00"
+                    }
+                ]
+            }
         },
-        {
-            "factorCode": "E_autoActualMileage",
-            "factorValue": "0",
-            "schemaDefType": "OBJECT",
-            "schemaDefRefId": "1",
-            "factorSourceType": 1
-        },
-        {
-            "factorCode": "bizType",
-            "factorValue": "1",
-            "schemaDefType": "POLICY",
-            "schemaDefRefId": "1",
-            "factorSourceType": 1
-        },
-        {
-            "factorCode": "periodStandardPremiumIncTax",
-            "factorValue": "100",
-            "schemaDefType": "PRODUCT",
-            "schemaDefRefId": "1",
-            "factorSourceType": 1
-        }
-    ],
-    "calFactorsOfList": {
-        "OBJECT_3": [
-            [
-                {
-                    "factorCode": "driverIdType",
-                    "factorValue": "1",
-                    "schemaDefType": "OBJECT",
-                    "schemaDefRefId": "3",
-                    "factorSourceType": 1
+        "productList": [
+            {
+                "productId": 335838592368646,
+                "coveragePeriodType": 3,
+                "coveragePeriod": "17",
+                "premiumPeriodType": 4,
+                "sumInsured": "0",
+                "effectiveDate": "2021-10-22T00:00:00.000+08:00",
+                "expiryDate": "2023-04-08T23:59:59.000+08:00",
+                "liabilityList": [
+                    {
+                        "liabilityId": 398,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 399,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 400,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 401,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 402,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 403,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 404,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 405,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 406,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 759,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 748996662411264,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 748997249613825,
+                        "sumInsured": "0"
+                    }
+                ],
+                "extraPremiumLiabilityList": [],
+                "productLevelSchemaFormulaFactors": {
+                    "objectFactors": [
+                        {
+                            "schemaDefRefId": 1,
+                            "factors": [
+                                {
+                                    "code": "vehicleUsage",
+                                    "value": "Private Car"
+                                },
+                                {
+                                    "code": "E_autoActualMileage",
+                                    "value": "0.0000"
+                                }
+                            ],
+                            "objectCategory": "AUTO",
+                            "objectSubCategory": "VEHICLE"
+                        }
+                    ],
+                    "productFactors": {
+                        "schemaDefRefId": 1,
+                        "factors": []
+                    }
+                },
+                "premiumDiscountList": [],
+                "objectInfo": {
+                    "objects": [
+                        {
+                            "objectCategory": 7,
+                            "objectSubCategory": 7,
+                            "vehicle": {
+                                "existHistoryPolicyOfNCDApplicableTarget": false,
+                                "claimExperience": {}
+                            }
+                        }
+                    ]
                 }
-            ]
+            },
+            {
+                "productId": 335845806587908,
+                "coveragePeriodType": 3,
+                "coveragePeriod": "17",
+                "premiumPeriodType": 4,
+                "sumInsured": "0",
+                "effectiveDate": "2021-10-22T00:00:00.000+08:00",
+                "expiryDate": "2023-04-08T23:59:59.000+08:00",
+                "liabilityList": [
+                    {
+                        "liabilityId": 398,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 399,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 400,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 401,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 402,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 403,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 404,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 405,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 406,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 759,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 748996662411264,
+                        "sumInsured": "0"
+                    },
+                    {
+                        "liabilityId": 748997249613825,
+                        "sumInsured": "0"
+                    }
+                ],
+                "extraPremiumLiabilityList": [],
+                "productLevelSchemaFormulaFactors": {
+                    "objectFactors": [
+                        {
+                            "schemaDefRefId": 1,
+                            "factors": [
+                                {
+                                    "code": "vehicleAge",
+                                    "value": 1
+                                },
+                                {
+                                    "code": "vehicleCapacity",
+                                    "value": "1400"
+                                },
+                                {
+                                    "code": "E_autoActualMileage",
+                                    "value": "0.0000"
+                                },
+                                {
+                                    "code": "vehicleUsage",
+                                    "value": "Private Car"
+                                },
+                                {
+                                    "code": "E_durationUsage",
+                                    "value": "Monthly"
+                                },
+                                {
+                                    "code": "vehicleBodyType",
+                                    "value": "SUV"
+                                },
+                                {
+                                    "code": "E_vehicleEngine",
+                                    "value": "Non-EV"
+                                },
+                                {
+                                    "code": "vehicleMake",
+                                    "value": "MERCEDES BENZ"
+                                },
+                                {
+                                    "code": "offPeakCar",
+                                    "value": "N"
+                                },
+                                {
+                                    "code": "E_kilowatts",
+                                    "value": "1400"
+                                }
+                            ],
+                            "objectCategory": "AUTO",
+                            "objectSubCategory": "VEHICLE"
+                        },
+                        {
+                            "schemaDefRefId": 3,
+                            "factors": [
+                                {
+                                    "code": "driverExperience",
+                                    "value": 7
+                                },
+                                {
+                                    "code": "driverGender",
+                                    "value": 2
+                                },
+                                {
+                                    "code": "E_driverAge",
+                                    "value": "32"
+                                },
+                                {
+                                    "code": "driverType",
+                                    "value": 1
+                                },
+                                {
+                                    "code": "driverIdType",
+                                    "value": 9
+                                }
+                            ],
+                            "objectCategory": "AUTO",
+                            "objectSubCategory": "DRIVER"
+                        },
+                        {
+                            "schemaDefRefId": 3,
+                            "factors": [
+                                {
+                                    "code": "driverExperience",
+                                    "value": 13
+                                },
+                                {
+                                    "code": "driverGender",
+                                    "value": 1
+                                },
+                                {
+                                    "code": "E_driverAge",
+                                    "value": "33"
+                                },
+                                {
+                                    "code": "driverType",
+                                    "value": 2
+                                },
+                                {
+                                    "code": "driverIdType",
+                                    "value": 9
+                                }
+                            ],
+                            "objectCategory": "AUTO",
+                            "objectSubCategory": "DRIVER"
+                        }
+                    ],
+                    "productFactors": {
+                        "schemaDefRefId": 1,
+                        "factors": [
+                            {
+                                "code": "deductibleAmount",
+                                "value": "1000"
+                            }
+                        ]
+                    }
+                },
+                "premiumDiscountList": [],
+                "objectInfo": {
+                    "objects": [
+                        {
+                            "objectCategory": 7,
+                            "objectSubCategory": 7,
+                            "vehicle": {
+                                "existHistoryPolicyOfNCDApplicableTarget": false,
+                                "claimExperience": {}
+                            }
+                        }
+                    ]
+                }
+            }
         ]
-    }
+    },
+    "bizZoneId": "Asia/Singapore",
+    "unqueKey": "9db01494-8722-4bdb-a09e-7c9c043b5dab"
 }
