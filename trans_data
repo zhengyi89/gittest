@@ -1,6 +1,46 @@
-	2023-05-08 14:56:40,754 [http-nio-8080-exec-6] INFO  [com.zatech.genesis.calculate.biz.service.handler.FormulaCalculateHandler] [FormulaCalculateHandler.java:154] [trace=64cac67b2df807e6,span=64cac67b2df807e6][tenant=incomenew,region=] [TID: N/A] - formulaCode->GSTforCarroRetail,cal params->{E_autoActualMileage_ac0d10f2=0, E_autoActualMileage=0, periodStandardPremiumIncTax_ddbfcc23=100, bizType=1, insureDate=2022-02-01, bizType_9f714f92=1, insureDate_dea1034d=2022-02-01, periodStandardPremiumIncTax=100},steps->{1=StepContentPO(type=dateFormat, stepContent=CalcDateFormatPO(date=insureDate_dea1034d, dateFormat=yyyyMMdd), containsFormulaCodes=null), 2=StepContentPO(type=currentTime, stepContent=CalcCurrentTimePO(dateFormat=yyyyMMdd), containsFormulaCodes=null), 3=StepContentPO(type=objectListForFunction, stepContent=CalcObjectListForFunctionPo(objectType=OBJECT_3, objectDataType=OBJECT_3, functionName=count, factorCode=driverIdType_6d0979f5), containsFormulaCodes=null), 4=StepContentPO(type=isEmpty, stepContent=CalcIsEmptyPo(factor=E_autoActualMileage_ac0d10f2), containsFormulaCodes=null), 5=StepContentPO(type=simple, stepContent=driverNumber>0&&!Mileage, containsFormulaCodes=[]), 6=StepContentPO(type=condition, stepContent={MileagePremium=R2, bizType_9f714f92!=4=R1, bizType_9f714f92==4=R2}, containsFormulaCodes=[]), 7=StepContentPO(type=queryRate, stepContent=Carro-GST-RT, containsFormulaCodes=null), 8=StepContentPO(type=simple, stepContent=R3, containsFormulaCodes=[]), 9=StepContentPO(type=simple, stepContent=periodStandardPremiumIncTax_ddbfcc23/(1+R3), containsFormulaCodes=[]), 10=StepContentPO(type=simple, stepContent=R4*R3, containsFormulaCodes=[]), 11=StepContentPO(type=simple, stepContent=round(R5,2), containsFormulaCodes=[])},compute start...
-	
-	
-	
-	
-	2023-04-29 17:32:28,999 [ThreadPoolTaskExecutor-4] INFO  [com.zatech.genesis.calculate.biz.service.handler.FormulaCalculateHandler] [FormulaCalculateHandler.java:154] [trace=77558c31eba4943c,span=db54ff41ec312e09][tenant=incomenew,region=eu] [TID: N/A] - formulaCode->GSTforCarroRetail,cal params->{E_autoActualMileage_ac0d10f2=0.0000, E_autoActualMileage=0.0000, periodStandardPremiumIncTax_ddbfcc23=0.00, driverIdType=9, bizType=1, insureDate=2022-04-01T14:03:55.000+08:00, bizType_9f714f92=1, insureDate_dea1034d=2022-04-01T14:03:55.000+08:00, driverIdType_6d0979f5=9, periodStandardPremiumIncTax=0.00},steps->{1=StepContentPO(type=dateFormat, stepContent=CalcDateFormatPO(date=insureDate_dea1034d, dateFormat=yyyyMMdd), containsFormulaCodes=null), 2=StepContentPO(type=currentTime, stepContent=CalcCurrentTimePO(dateFormat=yyyyMMdd), containsFormulaCodes=null), 3=StepContentPO(type=objectListForFunction, stepContent=CalcObjectListForFunctionPo(objectType=OBJECT_3, objectDataType=OBJECT_3, functionName=count, factorCode=driverIdType_6d0979f5), containsFormulaCodes=null), 4=StepContentPO(type=isEmpty, stepContent=CalcIsEmptyPo(factor=E_autoActualMileage_ac0d10f2), containsFormulaCodes=null), 5=StepContentPO(type=simple, stepContent=driverNumber>0&&!Mileage, containsFormulaCodes=[]), 6=StepContentPO(type=condition, stepContent={MileagePremium=R2, bizType_9f714f92!=4=R1, bizType_9f714f92==4=R2}, containsFormulaCodes=[]), 7=StepContentPO(type=queryRate, stepContent=Carro-GST-RT, containsFormulaCodes=null), 8=StepContentPO(type=simple, stepContent=R3, containsFormulaCodes=[]), 9=StepContentPO(type=simple, stepContent=periodStandardPremiumIncTax_ddbfcc23/(1+R3), containsFormulaCodes=[]), 10=StepContentPO(type=simple, stepContent=R4*R3, containsFormulaCodes=[]), 11=StepContentPO(type=simple, stepContent=round(R5,2), containsFormulaCodes=[])},compute start...
+{
+    "formulaCode": "GSTforCarroRetail",
+    "calFactors": [
+        {
+            "factorCode": "insureDate",
+            "factorValue": "2022-02-01",
+            "schemaDefType": "POLICY",
+            "schemaDefRefId": "1",
+            "factorSourceType": 1
+        },
+        {
+            "factorCode": "E_autoActualMileage",
+            "factorValue": "0",
+            "schemaDefType": "OBJECT",
+            "schemaDefRefId": "1",
+            "factorSourceType": 1
+        },
+        {
+            "factorCode": "bizType",
+            "factorValue": "1",
+            "schemaDefType": "POLICY",
+            "schemaDefRefId": "1",
+            "factorSourceType": 1
+        },
+        {
+            "factorCode": "periodStandardPremiumIncTax",
+            "factorValue": "100",
+            "schemaDefType": "PRODUCT",
+            "schemaDefRefId": "1",
+            "factorSourceType": 1
+        }
+    ],
+    "calFactorsOfList": {
+        "OBJECT_3": [
+            [
+                {
+                    "factorCode": "driverIdType",
+                    "factorValue": "1",
+                    "schemaDefType": "OBJECT",
+                    "schemaDefRefId": "3",
+                    "factorSourceType": 1
+                }
+            ]
+        ]
+    }
+}
