@@ -4,3 +4,5 @@ dwd_policy_by_event.policy_by_event_id,dwd_policy_by_event.policy_id,dwd_policy_
 select * from dwd_bcp_debit_note where reconciliation_setting_code like 'Carro-CUBG001%' order by id desc;
 
 113891411607557
+
+GSTforCarroRetail
