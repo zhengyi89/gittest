@@ -1,17 +1,2 @@
-/*
--- Query: select * from incomenew_general_ledger_00.accounting_finance where transaction_type = 'issuance_usage'
-
-and policy_number = 'CV02006202275'
- order by id desc limit 100
--- Date: 2023-05-13 16:04
-*/
-INSERT INTO `` (`id`,`app_code`,`policy_number`,`customer_id`,`transaction_type`,`product`,`transaction_ref`,`request_date`,`currency`,`total_amount`,`notax_amount`,`gst_tax`,`unused_os_prem`,`bank_settlement`,`bank_charge`,`amounts`,`request_id`,`message_id`,`message_body`,`is_deleted`,`creator`,`modifier`,`gmt_created`,`gmt_modified`,`total_amt`,`prem_amount`,`gst_output`,`prem_discount`,`payout`,`loss_reserves`,`gh_loss_reserves`,`general_claims`,`gst_input`,`os_tpd_claims`,`prem_settlement`,`total_payout`,`ex_gratia_claims`,`prem_amount_1`,`gl_req_log_id`,`stripe_amt`,`refund_payable`,`refund_payout`,`settlement_charge`,`payment_susp`,`bank`,`prem_amount_2`,`prem_amount_r`,`current_index`,`total_amt_co`,`misc_income`,`misc_gst_output`,`unpaid_prem`,`tenant_code`,`push_scene`,`pymt_susp`,`sub_amt`,`prem_amt`,`fnd_inv_smmry_gain`,`ilp_fl_gain`,`payout_amt`,`ilp_surr`,`div_rinvst`,`fund_code`,`os_claims`,`ilp_fluc_loss`,`pymt_susp_loss`,`ilp_death_clm`,`pymt_susp_gain`,`ilp_fluc_gain`,`fnd_inv_smmry`,`settlement_gst`) VALUES (156151438131204,'ZITP','CV02006202275','156126274420740','issuance_usage','carro','CV02006202275-20301221-20310120','2023-05-12 11:00:08','SGD',NULL,NULL,NULL,NULL,NULL,NULL,'{\"gst_output\":\"0.36\",\"prem_amount\":\"5.16\",\"total_amt\":\"5.52\"}',NULL,NULL,NULL,'N','system','system','2023-05-12 19:00:08','2023-05-12 19:55:16','5.52','5.16','0.36',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,156151438131204,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'incomenew',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
-
-
-/*
--- Query: select * from incomenew_general_ledger_00.gl_push_data where accounting_finance_id = 156151438131204
-LIMIT 0, 1000
-
--- Date: 2023-05-13 16:07
-*/
-INSERT INTO `` (`id`,`data_type`,`accounting_finance_id`,`request_data`,`response_data`,`is_success`,`gmt_created`,`gmt_modified`,`retry_number`,`is_deleted`,`tenant_code`) VALUES (156151438131200,'droplet',156151438131204,'{\"transactionType\":\"issuance_usage\",\"product\":\"carro\",\"amounts\":{\"gst_output\":\"0.36\",\"total_amt\":\"5.52\",\"prem_amount\":\"5.16\"},\"customerId\":\"156126274420740\",\"policyNumber\":\"CV02006202275\",\"requestDate\":\"2023-05-12 11:00:08\",\"transactionRef\":\"CV02006202275-20301221-20310120\",\"currency\":\"SGD\",\"appCode\":\"ZITP\"}',NULL,'Y','2023-05-12 19:00:08','2023-05-12 19:56:59',0,'N','incomenew');
+114443038064640
+147026237014022
