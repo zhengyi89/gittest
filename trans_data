@@ -9,3 +9,6 @@ select person_id from incomenew_customer_00.v_person_phone where is_default = 1 
 
 151226635321350	/bizapply/digital/cancellation	
 {"additionalInfo":{},"getMsgByCode":false,"reality":true,"success":false}	2023-04-15 14:41:19	2023-04-15 14:41:19
+
+
+select * from incomenew_customer_00.v_person_address where person_id = 100066252;
