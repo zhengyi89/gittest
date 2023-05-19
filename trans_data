@@ -15,7 +15,16 @@ select person_id from incomenew_customer_00.v_person_phone where is_default = 1 
 select * from incomenew_customer_00.v_person_address where person_id = 100066252;
 
 
-
+100
+102
+109
+110
+111
+200
+301
+3441
+408
+5006
 
 
 select * from incomenew_customer_00.v_person_phone where is_default = 1 and person_id in (
