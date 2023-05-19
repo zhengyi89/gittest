@@ -35,4 +35,6 @@ select * from incomenew_customer_00.v_person_channel where  person_id in (
 select person_id from incomenew_customer_00.v_person_channel where  is_deleted = 'N' group by  person_id,channel_code,channel_user_no having count(1) > 1) order by person_id;
 
 
+party_company_log_0004 157215163957249  
+
 
