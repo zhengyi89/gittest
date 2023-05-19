@@ -38,3 +38,4 @@ select person_id from incomenew_customer_00.v_person_channel where  is_deleted =
 party_company_log_0004 157215163957249  
 
 
+246b6240e6a97d95
